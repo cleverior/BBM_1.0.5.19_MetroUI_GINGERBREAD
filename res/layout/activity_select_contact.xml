@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:id="@id/select_contact_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:orientation="vertical" android:id="@id/select_contact_root" android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_container" android:background="@*android:color/white" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_container" android:background="@color/abugelap" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
         <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/select_contact_search_padding" android:layout_marginTop="@dimen/select_contact_search_padding" android:layout_marginRight="@dimen/select_contact_search_padding" android:layout_marginBottom="@dimen/select_contact_search_padding" android:layout_weight="1.0">
             <EditText android:id="@id/search_contacts" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/search_container" android:nextFocusRight="@id/search_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/contacts_search" android:inputType="textPersonName|textNoSuggestions" android:imeOptions="actionDone" style="@style/BB10Edit">
                 <requestFocus />
@@ -17,6 +17,6 @@
     <ImageView android:id="@id/greyDividingLine2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/grey_divider_line" android:scaleType="fitXY" android:layout_below="@id/additional_message" android:contentDescription="@string/blank">
         <requestFocus android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </ImageView>
-    <ListView android:id="@id/contactslist" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:divider="@drawable/list_item_default_divider" android:layout_above="@id/footer_action_bar" android:layout_below="@id/greyDividingLine2" />
+    <ListView android:id="@id/contactslist" android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:divider="@drawable/list_item_default_divider" android:layout_above="@id/footer_action_bar" android:layout_below="@id/greyDividingLine2" />
     <include layout="@layout/view_merge_footer_actionbar_dropshadow" />
 </RelativeLayout>

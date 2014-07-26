@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.bbm.ui.CheckableLinearLayout android:orientation="horizontal" android:background="@drawable/list_item_default_background" android:paddingRight="@dimen/contact_list_item_padding_right" android:paddingBottom="@dimen/contact_list_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+<com.bbm.ui.CheckableLinearLayout android:orientation="horizontal" android:background="@drawable/list_item_default_bg" android:paddingRight="@dimen/contact_list_item_padding_right" android:paddingBottom="@dimen/contact_list_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <LinearLayout android:id="@id/chat_photo" android:layout_width="@dimen/avatar_size" android:layout_height="@dimen/avatar_size" android:layout_marginRight="2.0dip">
         <LinearLayout android:orientation="vertical" android:id="@id/chat_photo_container_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">

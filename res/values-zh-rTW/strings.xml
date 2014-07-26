@@ -13,7 +13,7 @@
     <string name="abc_activity_chooser_view_see_all">查看全部</string>
     <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
     <string name="abc_shareactionprovider_share_with">選擇分享對象</string>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">應用程式</string>
     <string name="bookmark_picker_name">書籤</string>
     <string name="button_add_calendar">加入事件至日曆</string>

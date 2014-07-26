@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView android:id="@id/spacer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
     <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:indeterminateOnly="true" style="?android:attr/progressBarStyleLarge" />
-    <TextView android:textSize="@dimen/fontSizeLarge" android:textColor="@color/setup_foreground_secondary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/opening_bbm" />
+    <TextView android:textSize="@dimen/fontSizeLarge" android:textColor="@color/biru" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/opening_bbm" />
     <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" />
     <include layout="@layout/setup_report_problem" />
 </LinearLayout>

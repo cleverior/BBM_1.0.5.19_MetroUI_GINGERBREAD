@@ -6,5 +6,5 @@
     <ImageView android:id="@id/greyDividingLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/grey_divider_line" android:scaleType="fitXY" android:contentDescription="@string/blank">
         <requestFocus />
     </ImageView>
-    <ListView android:id="@id/contactslist" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:divider="@drawable/list_item_default_divider" />
+    <ListView android:id="@id/contactslist" android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:divider="@drawable/list_item_default_divider" />
 </LinearLayout>

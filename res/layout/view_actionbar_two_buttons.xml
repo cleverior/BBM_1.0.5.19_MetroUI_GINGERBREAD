@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="@integer/actionbar_weight_sum" android:layout_above="@id/actionbar_divider_line">
         <Button android:gravity="center" android:id="@id/header_action_bar_negative_button" android:background="@drawable/header_action_bar_button_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel_narrowbutton" android:layout_weight="@integer/actionbar_two_buttons_button_weight" style="@style/ActionBarButton" />

@@ -2,5 +2,5 @@
 <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/setup_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:indeterminateOnly="true" style="?android:attr/progressBarStyleSmall" />
-    <TextView android:textSize="@dimen/fontSizeLarge" android:textColor="@color/setup_foreground_secondary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/searching_for_contacts" />
+    <TextView android:textSize="@dimen/fontSizeLarge" android:textColor="@color/biru" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/searching_for_contacts" />
 </LinearLayout>

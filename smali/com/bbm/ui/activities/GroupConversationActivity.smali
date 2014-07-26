@@ -48,8 +48,6 @@
 
 .field private final U:Landroid/text/TextWatcher;
 
-.field private final V:Landroid/view/View$OnKeyListener;
-
 .field private final W:Lcom/bbm/h/k;
 
 .field private final X:Lcom/bbm/ui/c/dx;
@@ -144,8 +142,6 @@
     new-instance v0, Lcom/bbm/ui/activities/fx;
 
     invoke-direct {v0, p0}, Lcom/bbm/ui/activities/fx;-><init>(Lcom/bbm/ui/activities/GroupConversationActivity;)V
-
-    iput-object v0, p0, Lcom/bbm/ui/activities/GroupConversationActivity;->V:Landroid/view/View$OnKeyListener;
 
     new-instance v0, Lcom/bbm/ui/activities/fz;
 
@@ -1403,10 +1399,6 @@
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     iget-object v0, p0, Lcom/bbm/ui/activities/GroupConversationActivity;->B:Landroid/widget/EditText;
-
-    iget-object v2, p0, Lcom/bbm/ui/activities/GroupConversationActivity;->V:Landroid/view/View$OnKeyListener;
-
-    invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
     iget-object v0, p0, Lcom/bbm/ui/activities/GroupConversationActivity;->B:Landroid/widget/EditText;
 

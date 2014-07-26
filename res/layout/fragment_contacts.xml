@@ -9,7 +9,7 @@
         </ImageView>
         <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:id="@id/contacts_grid" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/selection_border" android:layout_weight="1.0" />
     </LinearLayout>
-    <RelativeLayout android:orientation="vertical" android:id="@id/contacts_empty_layout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@id/contacts_empty_layout" android:background="@color/abugelap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <TextView android:textSize="@dimen/contacts_status_text_size" android:textColor="@color/message" android:layout_gravity="center_vertical" android:id="@id/no_contacts_label" android:paddingTop="@dimen/contacts_status_padding" android:paddingBottom="@dimen/contacts_status_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_status_no_contacts" android:layout_centerInParent="true" />
         <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_contacts_guy" android:layout_above="@id/no_contacts_label" android:layout_centerHorizontal="true" android:contentDescription="@string/blank" />
         <Button android:id="@id/add_first_contact_button" android:text="@string/invite_to_bbm" android:layout_below="@id/no_contacts_label" android:layout_centerHorizontal="true" style="@style/EmptyViewButton" />

@@ -37,8 +37,6 @@
 
 .field private final P:Landroid/view/View$OnFocusChangeListener;
 
-.field private final Q:Landroid/view/View$OnKeyListener;
-
 .field private final R:Lcom/bbm/ui/by;
 
 .field private final S:Lcom/bbm/h/k;
@@ -141,8 +139,6 @@
     new-instance v0, Lcom/bbm/ui/activities/qr;
 
     invoke-direct {v0, p0}, Lcom/bbm/ui/activities/qr;-><init>(Lcom/bbm/ui/activities/ProfileActivity;)V
-
-    iput-object v0, p0, Lcom/bbm/ui/activities/ProfileActivity;->Q:Landroid/view/View$OnKeyListener;
 
     new-instance v0, Lcom/bbm/ui/activities/qs;
 
@@ -1032,10 +1028,6 @@
     const/16 v2, 0x40
 
     invoke-static {v0, v2}, Lcom/bbm/ui/cp;->a(Landroid/widget/EditText;I)Lcom/bbm/ui/cp;
-
-    iget-object v2, p0, Lcom/bbm/ui/activities/ProfileActivity;->Q:Landroid/view/View$OnKeyListener;
-
-    invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
     :cond_2
     iget-object v0, p0, Lcom/bbm/ui/activities/ProfileActivity;->B:Landroid/widget/ImageView;

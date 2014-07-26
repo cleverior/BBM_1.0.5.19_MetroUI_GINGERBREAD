@@ -5,28 +5,20 @@
         <layer-list>
             <item android:bottom="1.0px">
                 <shape android:shape="rectangle">
-                    <solid android:color="@*android:color/transparent" />
-                    <stroke android:width="2.0dip" android:color="@color/selection_and_info" />
+                    <solid android:color="@color/biru" />
+                    <stroke android:width="2.0dip" android:color="@color/metro" />
                 </shape>
             </item>
         </layer-list>
     </item>
-    <item android:state_checked="true">
+    <item android:state_activated="true">
         <layer-list>
             <item android:bottom="1.0px">
                 <shape android:shape="rectangle">
-                    <solid android:color="@color/selection_and_info" />
+                    <solid android:color="@color/metro" />
                 </shape>
             </item>
         </layer-list>
     </item>
-    <item android:state_selected="true">
-        <layer-list>
-            <item android:bottom="1.0px">
-                <shape android:shape="rectangle">
-                    <solid android:color="@color/selection_and_info" />
-                </shape>
-            </item>
-        </layer-list>
-    </item>
+    <item android:drawable="@color/white" />
 </selector>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:custom="http://schemas.android.com/apk/res/com.bbm">
     <com.bbm.ui.ListHeaderView android:id="@id/path" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:showRightLabel="false" />
@@ -13,6 +13,6 @@
         <Spinner android:id="@id/sort_order_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/file_picker_input_field_margin" style="@style/CascadesSpinner" />
     </LinearLayout>
     <ImageView android:id="@id/file_list_top_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/grey_divider_line" android:scaleType="fitXY" android:layout_below="@id/sorting_controls" android:contentDescription="@string/blank" />
-    <GridView android:id="@id/files" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/file_picker_grid_item_spacing" android:numColumns="1" android:layout_above="@id/footer_action_bar" android:layout_below="@id/file_list_top_divider" />
+    <GridView android:id="@id/files" android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/file_picker_grid_item_spacing" android:numColumns="1" android:layout_above="@id/footer_action_bar" android:layout_below="@id/file_list_top_divider" />
     <include layout="@layout/view_merge_footer_actionbar_dropshadow" />
 </RelativeLayout>

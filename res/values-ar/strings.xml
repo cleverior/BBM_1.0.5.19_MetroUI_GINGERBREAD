@@ -13,7 +13,7 @@
     <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
     <string name="abc_shareactionprovider_share_with_application">مشاركة مع %s</string>
     <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">تطبيقات</string>
     <string name="bookmark_picker_name">إشارات مرجعية</string>
     <string name="button_add_calendar">إضافة إلى التقويم</string>
@@ -178,7 +178,7 @@
     <string name="main_mood_status_format">%1$s - %2$s</string>
     <string name="main_status_busy">مشغول</string>
     <string name="main_status_available">متوفر</string>
-    <string name="invite_bbm_invites">دعوات BBM</string>
+    <string name="invite_bbm_invites">BBM MetroUI Invites</string>
     <string name="invite_group_invites">دعوات المجموعات</string>
     <string name="invite_group_notification">دعوة مجموعة BBM جديدة</string>
     <string name="invite_to_bbm">الدعوة إلى BBM</string>

@@ -97,8 +97,6 @@
 
 .field private final as:Landroid/text/TextWatcher;
 
-.field private final at:Landroid/view/View$OnKeyListener;
-
 .field private au:Lcom/google/a/a/m;
 
 .field private final av:Lcom/bbm/h/k;
@@ -287,8 +285,6 @@
     new-instance v0, Lcom/bbm/ui/activities/bx;
 
     invoke-direct {v0, p0}, Lcom/bbm/ui/activities/bx;-><init>(Lcom/bbm/ui/activities/ConversationActivity;)V
-
-    iput-object v0, p0, Lcom/bbm/ui/activities/ConversationActivity;->at:Landroid/view/View$OnKeyListener;
 
     invoke-static {}, Lcom/google/a/a/m;->d()Lcom/google/a/a/m;
 
@@ -3631,10 +3627,6 @@
     invoke-virtual {v0, v2}, Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
 
     iget-object v0, p0, Lcom/bbm/ui/activities/ConversationActivity;->B:Landroid/widget/EditText;
-
-    iget-object v2, p0, Lcom/bbm/ui/activities/ConversationActivity;->at:Landroid/view/View$OnKeyListener;
-
-    invoke-virtual {v0, v2}, Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
 
     iget-object v0, p0, Lcom/bbm/ui/activities/ConversationActivity;->B:Landroid/widget/EditText;
 

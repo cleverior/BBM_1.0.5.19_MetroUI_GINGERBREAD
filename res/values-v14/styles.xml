@@ -49,7 +49,7 @@
     <style name="TextAppearance.AppCompat.Base.SearchResult.Subtitle" parent="@*android:style/TextAppearance.Holo.SearchResult.Subtitle" />
     <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Title" parent="@*android:style/TextAppearance.Holo.SearchResult.Title" />
     <style name="TextAppearance.AppCompat.Light.Base.SearchResult.Subtitle" parent="@*android:style/TextAppearance.Holo.SearchResult.Subtitle" />
-    <style name="Widget.AppCompat.Base.ActivityChooserView">
+    <style name="Widget.AppCompat.Base.ActivityChooserView" parent="@style/Widget.AppCompat.Base">
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/abc_ab_share_pack_holo_dark</item>
         <item name="android:divider">?dividerVertical</item>

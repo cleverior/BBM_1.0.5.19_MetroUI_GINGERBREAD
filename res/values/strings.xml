@@ -15,7 +15,7 @@
     <string name="abc_activity_chooser_view_see_all">See all</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">Applications</string>
     <string name="bookmark_picker_name">Bookmarks</string>
     <string name="button_add_calendar">Add to calendar</string>
@@ -182,7 +182,7 @@
     <string name="main_mood_status_format">%1$s - %2$s</string>
     <string name="main_status_busy">Busy</string>
     <string name="main_status_available">Available</string>
-    <string name="invite_bbm_invites">BBM Invites</string>
+    <string name="invite_bbm_invites">BBM MetroUI Invites</string>
     <string name="invite_group_invites">Group Invites</string>
     <string name="invite_group_notification">New BBM Group invite</string>
     <string name="invite_to_bbm">Invite to BBM</string>
@@ -838,10 +838,10 @@ http://blackberry.com/support/bbm"</string>
     <string name="setas_activity_item_contact_picture">Contact Picture</string>
     <string name="setas_activity_item_wallpaper">Wallpaper</string>
     <string name="setas_activity_item_twitter">Twitter</string>
-    <string name="setas_activity_bbm_picture_updated">BBM picture updated</string>
+    <string name="setas_activity_bbm_picture_updated">BBM MetroUI picture updated</string>
     <string name="setas_activity_picture_set_as_wallpaper">Picture set as wallpaper</string>
     <string name="blackberry_id">BlackBerry ID Username</string>
-    <string name="opening_bbm">Opening BBM</string>
+    <string name="opening_bbm">Opening BBM MetroUI</string>
     <string name="searching_for_contacts">Searching for Contacts</string>
     <string name="setup_you_need_to_signin_to_blackberry_id">"You need to sign in using your BlackBerry ID to access the following application:
 BBM"</string>
@@ -849,7 +849,7 @@ BBM"</string>
     <string name="setup_if_you_already_have_a_blackberry_id">"If you already have a BlackBerry ID, sign in now. If you're new to BlackBerry, you need to create a BlackBerryID."</string>
     <string name="setup_create_new">Create New</string>
     <string name="setup_sign_in">Sign In</string>
-    <string name="setup_setting_up_bbm">Setting up BBM</string>
+    <string name="setup_setting_up_bbm">Setting up BBM MetroUI</string>
     <string name="setup_share_bbm_message">Let your friends know that BBM is now available on Android and iOS</string>
     <string name="setup_invite_bbm_people_you_know">Chat and share with friends on BBM. Click Continue to add friends already using BBM.</string>
     <string name="setup_are_you_sure_you_dont_want_to_add_contacts">"Are you sure you don't want to add contacts?"</string>
@@ -882,7 +882,7 @@ BBM"</string>
     <string name="no_connection_found">No Connection Found</string>
     <string name="your_connection_to_the_wireless_network_is_turned_off">Your connection to the wireless network is turned off. Restore your connections and try again.</string>
     <string name="bbm_has_lost_its_connection">BBM has lost its connection. Please wait while server attempts to reconnect.</string>
-    <string name="bbm_error">BBM Error</string>
+    <string name="bbm_error">BBM MetroUI Error</string>
     <string name="unable_to_connect">Unable to Connect</string>
     <string name="you_need_a_data_plan_to_use_bbm">You need a data plan to use BBM. Please contact your service provider for details.</string>
     <string name="blackberry_id_is_not_responding">BlackBerry ID is not responding.</string>
@@ -898,9 +898,9 @@ BBM"</string>
     <string name="restore_using_device_switch">Restore using Device Switch</string>
     <string name="restore_using_email">Restore using Email</string>
     <string name="button_continue">Continue</string>
-    <string name="button_continue_to_bbm">Continue to BBM</string>
+    <string name="button_continue_to_bbm">Continue to BBM MetroUI</string>
     <string name="button_skip">Skip</string>
-    <string name="bbm_setup">BBM Setup</string>
+    <string name="bbm_setup">BBM MetroUI Setup</string>
     <string name="bbm_service_running">Connected</string>
     <string name="bbm_service_no_connectivity">No connectivity</string>
     <string name="notification_stacked_message_ticker_title">%1$d new messages</string>
@@ -914,10 +914,10 @@ BBM"</string>
     <string name="notification_group_picture_comment">%1$s commented on a picture</string>
     <string name="notification_group_invite">Group invite</string>
     <string name="setup_report_problem">Report problem</string>
-    <string name="complete_your_bbm_profile">Complete your BBM Profile</string>
-    <string name="bbm_for_all">BBM For All</string>
-    <string name="sign_in_to_bbm">Sign in to BBM</string>
-    <string name="about_bbm_pins_title">About BBM PINs</string>
+    <string name="complete_your_bbm_profile">Complete your BBM MetroUI Profile</string>
+    <string name="bbm_for_all">BBM MetroUI For All</string>
+    <string name="sign_in_to_bbm">Sign in to BBM MetroUI</string>
+    <string name="about_bbm_pins_title">About BBM MetroUI PINs</string>
     <string name="about_bbm_pins_message">A PIN uniquely identifies you in BBM. People can invite you to become BBM contacts if you share your BBM PIN or barcode.</string>
     <string name="bbm_share_with_pin_uri">http://www.bbm.com/share/?BBMID=%1$s</string>
     <string name="your_blackberry_id">Your BlackBerry ID</string>
@@ -1040,4 +1040,15 @@ www.pin.bbm.com/%1$s"</string>
     <string name="share_my_pin_image_title">\#BBMme</string>
     <string name="share_my_pin_bbm_com">BBM.com</string>
     <string name="stacked_notification_format"><Data>&lt;b>%1$s&lt;/b>: %2$s</Data></string>
+    <string name="bbmmetroui">BBM with MetroUI</string>
+    <string name="beni_label">Custom By</string>
+    <string name="beni">Beni Setiawan</string>
+    <string name="powered_label">Join BBM Channel</string>
+    <string name="powered">C00223288</string>
+    <string name="customversion">Custom Version</string>
+    <string name="dateversion">Date Custom Version</string>
+    <string name="dversion">7 April 2014</string>
+    <string name="cversion">Beta 4.0</string>
+    <string name="testers_label">Tester</string>
+    <string name="testers">Yosef</string>
 </resources>

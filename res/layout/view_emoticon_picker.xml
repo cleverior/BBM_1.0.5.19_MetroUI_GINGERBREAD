@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/emoticon_picker_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<LinearLayout android:orientation="vertical" android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emoticon_picker_page_indicator_top_margin">
-        <ImageView android:id="@id/left_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_emoticon_page_indicator" />
-        <ImageView android:id="@id/right_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/emoticon_picker_page_indicator_horizontal_margin" android:src="@drawable/selector_emoticon_page_indicator" />
+    <LinearLayout android:layout_gravity="center" android:layout_width="160.0dip" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/emoticon_picker_page_indicator_horizontal_margin" android:layout_marginTop="@dimen/emoticon_picker_page_indicator_top_margin" android:layout_marginRight="@dimen/emoticon_picker_page_indicator_horizontal_margin">
+        <ImageView android:id="@id/left_page_indicator" android:layout_width="80.0dip" android:layout_height="1.0dip" android:src="@color/metro" />
+        <ImageView android:id="@id/right_page_indicator" android:layout_width="80.0dip" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/emoticon_picker_page_indicator_horizontal_margin" android:src="@color/biru" />
     </LinearLayout>
     <view android:id="@id/emoticon_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/emoticon_picker_top_margin" class="com.bbm.ui.EmoticonPicker$EmoticonScrollView">
         <android.support.v7.widget.GridLayout android:orientation="vertical" android:id="@id/emoticon_grid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:rowCount="@integer/emoticon_picker_row_count" />

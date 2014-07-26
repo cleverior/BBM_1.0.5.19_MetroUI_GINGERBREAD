@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest android:versionCode="43" android:versionName="1.0.5.13" package="com.bbm"
+<manifest android:versionCode="49" android:versionName="1.0.5.19" android:installLocation="auto" package="com.bbm"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <compatible-screens>
         <screen android:screenSize="small" android:screenDensity="ldpi" />
@@ -46,22 +46,22 @@
     <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
     <uses-feature android:name="android.hardware.location.gps" android:required="false" />
     <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name=".Alaska" android:allowBackup="true" android:largeHeap="true">
-        <activity android:label="@string/app_name" android:name=".ui.activities.MainActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+        <activity android:label="@string/app_name" android:name=".ui.activities.MainActivity" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="com.bbm.ui.activities.action.SECTION_CHANGED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/app_name" android:name=".ui.activities.StartupActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan">
+        <activity android:label="@string/app_name" android:name=".ui.activities.StartupActivity" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activities.ConversationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/invite_to_bbm" android:name=".ui.activities.InviteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/open_in_bbm" android:name=".ui.activities.OpenInBbmActivity" android:screenOrientation="portrait">
+        <activity android:name=".ui.activities.ConversationActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/invite_to_bbm" android:name=".ui.activities.InviteActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/open_in_bbm" android:name=".ui.activities.OpenInBbmActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -99,40 +99,40 @@
                 <data android:scheme="pin" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/app_name" android:name=".ui.activities.TapToInviteActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/select" android:name=".ui.activities.SelectContactActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible|adjustPan" />
-        <activity android:label="@string/select_group" android:name=".ui.activities.SelectGroupActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/select_category" android:name=".ui.activities.SelectCategoryActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.ProfileActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.AvatarViewerActivity" android:screenOrientation="portrait" />
-        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/app_name" android:name=".ui.activities.ImageViewerActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.OwnProfileActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
-        <activity android:label="@string/settings_activity_title" android:name=".ui.activities.SettingsActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.LegalActivity" android:screenOrientation="portrait" />
-        <activity android:name=".ui.activities.ReportProblemActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.AttachActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.ShowBarCodeActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.ShowGroupBarCodeActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/blackberry_id" android:name=".ui.activities.SetupActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden" />
-        <activity android:label="@string/title_activity_new_group" android:name=".ui.activities.NewGroupActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/group_add_list_title" android:name=".ui.activities.NewListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/group_add_list_item_title" android:name=".ui.activities.NewListItemActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/group_edit_list_title" android:name=".ui.activities.EditListItemActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/title_activity_groups_icon" android:name=".ui.activities.GroupsIconActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/select" android:name=".ui.activities.ProfileIconSourceActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_profile_icon" android:name=".ui.activities.ProfileDefaultIconActivity" android:screenOrientation="portrait" />
-        <activity android:name="com.google.zxing.client.android.CaptureActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden">
+        <activity android:label="@string/app_name" android:name=".ui.activities.TapToInviteActivity" />
+        <activity android:label="@string/select" android:name=".ui.activities.SelectContactActivity" android:windowSoftInputMode="stateAlwaysVisible|adjustPan" />
+        <activity android:label="@string/select_group" android:name=".ui.activities.SelectGroupActivity" />
+        <activity android:label="@string/select_category" android:name=".ui.activities.SelectCategoryActivity" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.ProfileActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.AvatarViewerActivity" />
+        <activity android:theme="@style/AppTheme.NoActionBar" android:label="@string/app_name" android:name=".ui.activities.ImageViewerActivity" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.OwnProfileActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:label="@string/settings_activity_title" android:name=".ui.activities.SettingsActivity" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.LegalActivity" />
+        <activity android:name=".ui.activities.ReportProblemActivity" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.AttachActivity" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.ShowBarCodeActivity" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.ShowGroupBarCodeActivity" />
+        <activity android:label="@string/blackberry_id" android:name=".ui.activities.SetupActivity" android:launchMode="singleTask" android:windowSoftInputMode="stateHidden" />
+        <activity android:label="@string/title_activity_new_group" android:name=".ui.activities.NewGroupActivity" />
+        <activity android:label="@string/group_add_list_title" android:name=".ui.activities.NewListActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/group_add_list_item_title" android:name=".ui.activities.NewListItemActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/group_edit_list_title" android:name=".ui.activities.EditListItemActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/title_activity_groups_icon" android:name=".ui.activities.GroupsIconActivity" />
+        <activity android:label="@string/select" android:name=".ui.activities.ProfileIconSourceActivity" />
+        <activity android:label="@string/title_activity_profile_icon" android:name=".ui.activities.ProfileDefaultIconActivity" />
+        <activity android:name="com.google.zxing.client.android.CaptureActivity" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden">
             <intent-filter>
                 <action android:name="com.google.zxing.client.android.CaptureActivity" />
             </intent-filter>
         </activity>
-        <activity android:theme="@*android:style/Theme.Black.NoTitleBar" android:name="com.blackberry.ids.LoginActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
-        <activity android:theme="@*android:style/Theme.Black.NoTitleBar" android:name="com.blackberry.ids.EditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
-        <activity android:label="@string/title_activity_change_status" android:name=".ui.activities.ChangeStatusActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_sent_pending_invite" android:name=".ui.activities.SentPendingInviteActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_received_pending_invite" android:name=".ui.activities.ReceivedPendingInviteActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_received_pending_invite" android:name=".ui.activities.ReceivedPendingGroupInviteActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/bbm_contacts" android:name=".ui.activities.ShareActivity" android:screenOrientation="portrait">
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar" android:name="com.blackberry.ids.LoginActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar" android:name="com.blackberry.ids.EditActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:label="@string/title_activity_change_status" android:name=".ui.activities.ChangeStatusActivity" />
+        <activity android:label="@string/title_activity_sent_pending_invite" android:name=".ui.activities.SentPendingInviteActivity" />
+        <activity android:label="@string/title_activity_received_pending_invite" android:name=".ui.activities.ReceivedPendingInviteActivity" />
+        <activity android:label="@string/title_activity_received_pending_invite" android:name=".ui.activities.ReceivedPendingGroupInviteActivity" />
+        <activity android:label="@string/bbm_contacts" android:name=".ui.activities.ShareActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -145,40 +145,40 @@
                 <data android:mimeType="video/*" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/app_name" android:name=".ui.activities.FilePickerActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden" />
-        <activity android:label="@string/app_name" android:name=".ui.activities.FileSearchActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/bbm_groups" android:name=".ui.activities.GroupPictureShareActivity" android:screenOrientation="portrait">
+        <activity android:label="@string/app_name" android:name=".ui.activities.FilePickerActivity" android:windowSoftInputMode="stateHidden" />
+        <activity android:label="@string/app_name" android:name=".ui.activities.FileSearchActivity" />
+        <activity android:label="@string/bbm_groups" android:name=".ui.activities.GroupPictureShareActivity">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="image/*" />
             </intent-filter>
         </activity>
-        <activity android:label="@string/app_name" android:name=".ui.activities.GroupProfileActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_groups_lobby" android:name=".ui.activities.GroupLobbyActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_group_picture" android:name=".ui.activities.GroupPictureActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_group_lists" android:name=".ui.activities.GroupListsActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_group_lists" android:name=".ui.activities.GroupListItemsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
-        <activity android:label="@string/title_activity_group_lists" android:name=".ui.activities.GroupListsCommentActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_group_event_details" android:name=".ui.activities.GroupEventDetailsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/title_activity_group_events" android:name=".ui.activities.GroupEventsActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/title_activity_group_events" android:name=".ui.activities.GroupEventsAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/title_activity_group_picture" android:name=".ui.activities.GroupPictureCommentsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" />
-        <activity android:label="@string/title_activity_group_picture" android:name=".ui.activities.GroupPictureUploadActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupSettingsActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupAdminEditActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupAdminAddActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupAdminPasswordActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/blank" android:name=".ui.activities.AudioPlayerActivity" android:screenOrientation="portrait" />
-        <activity android:label="@string/setas_activity_item_bbm_picture" android:name=".ui.activities.SetAsActivity" android:screenOrientation="portrait">
+        <activity android:label="@string/app_name" android:name=".ui.activities.GroupProfileActivity" />
+        <activity android:label="@string/title_activity_groups_lobby" android:name=".ui.activities.GroupLobbyActivity" />
+        <activity android:label="@string/title_activity_group_picture" android:name=".ui.activities.GroupPictureActivity" />
+        <activity android:label="@string/title_activity_group_lists" android:name=".ui.activities.GroupListsActivity" />
+        <activity android:label="@string/title_activity_group_lists" android:name=".ui.activities.GroupListItemsActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:label="@string/title_activity_group_lists" android:name=".ui.activities.GroupListsCommentActivity" />
+        <activity android:label="@string/title_activity_group_event_details" android:name=".ui.activities.GroupEventDetailsActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/title_activity_group_events" android:name=".ui.activities.GroupEventsActivity" />
+        <activity android:label="@string/title_activity_group_events" android:name=".ui.activities.GroupEventsAddActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/title_activity_group_picture" android:name=".ui.activities.GroupPictureCommentsActivity" android:windowSoftInputMode="adjustResize" />
+        <activity android:label="@string/title_activity_group_picture" android:name=".ui.activities.GroupPictureUploadActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupSettingsActivity" />
+        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupAdminEditActivity" />
+        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupAdminAddActivity" />
+        <activity android:label="@string/group_settings_title" android:name=".ui.activities.GroupAdminPasswordActivity" />
+        <activity android:label="@string/blank" android:name=".ui.activities.AudioPlayerActivity" />
+        <activity android:label="@string/setas_activity_item_bbm_picture" android:name=".ui.activities.SetAsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.ATTACH_DATA" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="image/*" />
             </intent-filter>
         </activity>
-        <activity android:label="CropLabel" android:name="com.cropimage.CropImage" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:hardwareAccelerated="false" />
-        <activity android:label="@string/blank" android:name=".ui.activities.GroupSelectNewAdminActivity" android:screenOrientation="portrait" />
+        <activity android:label="CropLabel" android:name="com.cropimage.CropImage" android:configChanges="keyboardHidden|orientation" android:hardwareAccelerated="false" />
+        <activity android:label="@string/blank" android:name=".ui.activities.GroupSelectNewAdminActivity" />
         <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.bbm.fileprovider" android:grantUriPermissions="true">
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
         </provider>
@@ -223,12 +223,12 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
-        <activity android:label="@string/blocked_contacts_activity_title" android:name=".ui.activities.BlockedContactsActivity" android:screenOrientation="portrait" />
-        <activity android:name=".ui.activities.GroupChatListActivity" android:screenOrientation="portrait" />
-        <activity android:name=".ui.activities.GroupConversationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateVisible|adjustResize" />
-        <activity android:name=".ui.activities.BroadcastActivity" android:screenOrientation="portrait" />
-        <activity android:name=".ui.activities.GroupChatHistorySettingsActivity" android:screenOrientation="portrait" />
-        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".ui.activities.FirstLaunchOverlayActivity" android:screenOrientation="portrait" />
+        <activity android:label="@string/blocked_contacts_activity_title" android:name=".ui.activities.BlockedContactsActivity" />
+        <activity android:name=".ui.activities.GroupChatListActivity" />
+        <activity android:name=".ui.activities.GroupConversationActivity" android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".ui.activities.BroadcastActivity" />
+        <activity android:name=".ui.activities.GroupChatHistorySettingsActivity" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".ui.activities.FirstLaunchOverlayActivity" />
         <uses-library android:name="com.sec.android.app.multiwindow" android:required="false" />
         <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
         <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip" />

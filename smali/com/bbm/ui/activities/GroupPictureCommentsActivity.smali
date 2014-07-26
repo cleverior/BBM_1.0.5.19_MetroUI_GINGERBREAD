@@ -1740,8 +1740,6 @@
 
     invoke-direct {v1, p0}, Lcom/bbm/ui/activities/ks;-><init>(Lcom/bbm/ui/activities/GroupPictureCommentsActivity;)V
 
-    invoke-virtual {v0, v1}, Lcom/bbm/ui/SendEditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
-
     iget-object v0, p0, Lcom/bbm/ui/activities/GroupPictureCommentsActivity;->z:Lcom/bbm/ui/SendEditText;
 
     new-instance v1, Lcom/bbm/ui/activities/kt;

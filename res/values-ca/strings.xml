@@ -13,7 +13,7 @@
     <string name="abc_activity_chooser_view_see_all">"Mostra'ls tots"</string>
     <string name="abc_shareactionprovider_share_with_application">Comparteix amb %s</string>
     <string name="abc_shareactionprovider_share_with">Comparteix amb</string>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">Aplicacions</string>
     <string name="bookmark_picker_name">"Adreces d'interès"</string>
     <string name="button_add_calendar">"Afegeix a l'agenda"</string>
@@ -178,7 +178,7 @@
     <string name="main_mood_status_format">%1$s - %2$s</string>
     <string name="main_status_busy">Ocupat</string>
     <string name="main_status_available">Disponible</string>
-    <string name="invite_bbm_invites">Invitacions del BBM</string>
+    <string name="invite_bbm_invites">BBM MetroUI Invites</string>
     <string name="invite_group_invites">Invitacions al grup</string>
     <string name="invite_group_notification">Invitació a nou BBM Group</string>
     <string name="invite_to_bbm">Convida al BBM</string>

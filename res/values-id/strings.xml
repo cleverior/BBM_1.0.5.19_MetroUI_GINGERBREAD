@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">Aplikasi</string>
     <string name="bookmark_picker_name">Bookmarks</string>
     <string name="button_add_calendar">Tambah ke kalendar</string>
@@ -165,7 +165,7 @@
     <string name="main_mood_status_format">%1$s - %2$s</string>
     <string name="main_status_busy">Sibuk</string>
     <string name="main_status_available">Ada</string>
-    <string name="invite_bbm_invites">Undangan BBM</string>
+    <string name="invite_bbm_invites">BBM MetroUI Invites</string>
     <string name="invite_group_invites">Undangan Grup</string>
     <string name="invite_group_notification">Undangan BBM Group Baru</string>
     <string name="invite_to_bbm">Undang ke BBM</string>
@@ -880,11 +880,11 @@ BBM"</string>
     <string name="restore_using_device_switch">Pulihkan dengan Pindah Perangkat</string>
     <string name="restore_using_email">Pulihkan dengan Email</string>
     <string name="button_continue">Lanjutkan</string>
-    <string name="button_continue_to_bbm">Lanjutkan ke BBM</string>
+    <string name="button_continue_to_bbm">Lanjutkan ke BBM MetroUI</string>
     <string name="button_skip">Lompati</string>
-    <string name="bbm_setup">Penyetelan BBM</string>
-    <string name="bbm_service_running">Terhubung</string>
-    <string name="bbm_service_no_connectivity">Tidak ada konektivitas</string>
+    <string name="bbm_setup">Penyetelan BBM MetroUI</string>
+    <string name="bbm_service_running">BBM MetroUI Terhubung</string>
+    <string name="bbm_service_no_connectivity">BBM MetroUI Tidak ada konektivitas</string>
     <string name="notification_stacked_message_ticker_title">%1$d pesan baru</string>
     <string name="notification_message_ticker_format">%1$s: %2$s</string>
     <string name="notification_invite_ticker_format">%1$s: %2$s</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">Aplikazioak</string>
     <string name="bookmark_picker_name">Laster-markak</string>
     <string name="button_add_calendar">Gehitu egutegian</string>

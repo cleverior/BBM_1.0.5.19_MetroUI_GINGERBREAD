@@ -1,873 +1,1859 @@
 [
-    {
-        "name": "SMILE",
-        "hex": "0x01",
-        "screenshot": "smile",
-        "cascadesName": "SMILE",
-        "texts": [
-            ":)",
-            ":-)",
-            "=)",
-            "=-)"
-        ]
-    },
-    {
-        "name": "WINK",
-        "hex": "0x02",
-        "screenshot": "wink",
-        "cascadesName": "WINK",
-        "texts": [
-            ";)",
-            ";-)"
-        ]
-    },
-    {
-        "name": "BIG_SMILE",
-        "hex": "0x03",
-        "screenshot": "big_grin",
-        "cascadesName": "BIG_GRIN",
-        "texts": [
-            ":D",
-            ":d",
-            ":-D",
-            ":-d",
-            "=-D",
-            "=-d"
-        ]
-    },
-    {
-        "name": "LAUGHING",
-        "hex": "0x04",
-        "screenshot": "laughing",
-        "cascadesName": "LAUGHING",
-        "texts": [
-            "=D",
-            "=d"
-        ]
-    },
-    {
-        "name": "ROTFL",
-        "hex": "0x05",
-        "screenshot": "rofl",
-        "cascadesName": "ROFL",
-        "texts": [
-            "=))"
-        ]
-    },
-    {
-        "name": "BIG_HUG",
-        "hex": "0x06",
-        "screenshot": "big_hug",
-        "cascadesName": "BIG_HUG",
-        "texts": [
-            "({})"
-        ]
-    },
-    {
-        "name": "DANCING",
-        "hex": "0x07",
-        "screenshot": "dancing_raise_roof",
-        "cascadesName": "DANCING_RAISE_ROOF",
-        "texts": [
-            "\\=D/",
-            "\\=d/"
-        ]
-    },
-    {
-        "name": "PARTY",
-        "hex": "0x08",
-        "screenshot": "party",
-        "cascadesName": "PARTY",
-        "texts": [
-            "<=-P",
-            "<=-p",
-            "*PARTY*",
-            "*Party*",
-            "*party*"
-        ]
-    },
-    {
-        "name": "TONGUE_OUT",
-        "hex": "0x09",
-        "screenshot": "tongue_out",
-        "cascadesName": "TONGUE_OUT",
-        "texts": [
-            ":P",
-            ":p",
-            ":-P",
-            ":-p",
-            "=P",
-            "=p",
-            "=-P",
-            "=-p"
-        ]
-    },
-    {
-        "name": "EYELASHES",
-        "hex": "0x0A",
-        "screenshot": "eyelashes",
-        "cascadesName": "EYELASHES",
-        "texts": [
-            ";;)"
-        ]
-    },
-    {
-        "name": "LOVE_STRUCK",
-        "hex": "0x0B",
-        "screenshot": "i_love_you",
-        "cascadesName": "I_LOVE_YOU",
-        "texts": [
-            "<3<3"
-        ]
-    },
-    {
-        "name": "KISS",
-        "hex": "0x0C",
-        "screenshot": "kisses",
-        "cascadesName": "KISSES",
-        "texts": [
-            ":*",
-            ":-*",
-            "=*",
-            "=-*"
-        ]
-    },
-    {
-        "name": "STRAIGHT_FACE",
-        "hex": "0x0D",
-        "screenshot": "straight_face",
-        "cascadesName": "STRAIGHT_FACE",
-        "texts": [
-            ":|",
-            "=|"
-        ]
-    },
-    {
-        "name": "RAISED_EYEBROW",
-        "hex": "0x0E",
-        "screenshot": "raised_eyebrow",
-        "cascadesName": "RAISED_EYEBROW",
-        "texts": [
-            "/:)",
-            "/=)"
-        ]
-    },
-    {
-        "name": "SARCASTIC",
-        "hex": "0x0F",
-        "screenshot": "sarcastic_look",
-        "cascadesName": "SARCASTIC_LOOK",
-        "texts": [
-            ":>",
-            ":->",
-            "=>",
-            "=->"
-        ]
-    },
-    {
-        "name": "NOT_INTERESTED",
-        "hex": "0x10",
-        "screenshot": "shrug",
-        "cascadesName": "SHRUG",
-        "texts": [
-            "3-|"
-        ]
-    },
-    {
-        "name": "NOT_TALKING",
-        "hex": "0x11",
-        "screenshot": "not_talking",
-        "cascadesName": "NOT_TALKING",
-        "texts": [
-            ":]X",
-            ":]x",
-            "=]X",
-            "=]x"
-        ]
-    },
-    {
-        "name": "TALK_TO_THE_HAND",
-        "hex": "0x12",
-        "screenshot": "talk_to_the_hand",
-        "cascadesName": "TALK_TO_THE_HAND",
-        "texts": [
-            ">:/",
-            ">=/"
-        ]
-    },
-    {
-        "name": "EYES_ROLLING",
-        "hex": "0x13",
-        "screenshot": "rolling_eyes",
-        "cascadesName": "ROLLING_EYES",
-        "texts": [
-            "8-)",
-            "8O)",
-            "8o)",
-            "8-|",
-            "*EYESROLLING*",
-            "*Eyesrolling*",
-            "*eyesrolling*"
-        ]
-    },
-    {
-        "name": "DONT_KNOW",
-        "hex": "0x14",
-        "screenshot": "dont_know",
-        "cascadesName": "DONT_KNOW",
-        "texts": [
-            ":]Y",
-            ":]y",
-            "=]Y",
-            "=]y"
-        ]
-    },
-    {
-        "name": "CONFUSED",
-        "hex": "0x15",
-        "screenshot": "confused",
-        "cascadesName": "CONFUSED",
-        "texts": [
-            ":S",
-            ":s",
-            ":-S",
-            ":-s",
-            "=S",
-            "=s",
-            "=-S",
-            "=-s"
-        ]
-    },
-    {
-        "name": "SICK",
-        "hex": "0x16",
-        "screenshot": "sick_ill",
-        "cascadesName": "SICK_ILL",
-        "texts": [
-            ":&",
-            ":-&",
-            "=&",
-            "=-&",
-            "*SICK*",
-            "*Sick*",
-            "*sick*"
-        ]
-    },
-    {
-        "name": "FEELING_BEAT_UP",
-        "hex": "0x17",
-        "screenshot": "feeling_beat_up",
-        "cascadesName": "FEELING_BEAT_UP",
-        "texts": [
-            ":]XX",
-            ":]xx",
-            "=]XX",
-            "=]xx"
-        ]
-    },
-    {
-        "name": "SAD",
-        "hex": "0x18",
-        "screenshot": "sad",
-        "cascadesName": "SAD",
-        "texts": [
-            ":(",
-            ":-(",
-            "=(",
-            "=-("
-        ]
-    },
-    {
-        "name": "CRYING",
-        "hex": "0x19",
-        "screenshot": "crying",
-        "cascadesName": "CRYING",
-        "texts": [
-            ":'(",
-            ":,(",
-            ":,-(",
-            ":,O(",
-            ":,o(",
-            ":\\'(",
-            ":\\'-(",
-            ":\\'O(",
-            ":\\'o(",
-            "=\\'("
-        ]
-    },
-    {
-        "name": "ANGRY",
-        "hex": "0x1A",
-        "screenshot": "angry",
-        "cascadesName": "ANGRY",
-        "texts": [
-            ">:O",
-            ">:o",
-            ">:-O",
-            ">:-o",
-            ">=O",
-            ">=o",
-            ">=-O",
-            ">=-o"
-        ]
-    },
-    {
-        "name": "EMBARRASSED",
-        "hex": "0x1B",
-        "screenshot": "embarrassed",
-        "cascadesName": "EMBARRASSED",
-        "texts": [
-            ":$",
-            ":-$",
-            "=$",
-            "=-$"
-        ]
-    },
-    {
-        "name": "WHEW",
-        "hex": "0x1C",
-        "screenshot": "phew",
-        "cascadesName": "PHEW",
-        "texts": [
-            "#:-S",
-            "#:-s",
-            "#=-S",
-            "#=-s"
-        ]
-    },
-    {
-        "name": "HUH",
-        "hex": "0x1D",
-        "screenshot": "huh",
-        "cascadesName": "HUH",
-        "texts": [
-            ":/",
-            ":-/",
-            "=/",
-            "=-/"
-        ]
-    },
-    {
-        "name": "SURPRISED",
-        "hex": "0x1E",
-        "screenshot": "surprise_shock",
-        "cascadesName": "SURPRISE_SHOCK",
-        "texts": [
-            ":O",
-            ":o",
-            ":-O",
-            ":-o",
-            "=O",
-            "=o",
-            "=-O",
-            "=-o"
-        ]
-    },
-    {
-        "name": "CANT_WATCH",
-        "hex": "0x1F",
-        "screenshot": "cant_watch_worried",
-        "cascadesName": "CANT_WATCH_WORRIED",
-        "texts": [
-            "X_X",
-            "x_x"
-        ]
-    },
-    {
-        "name": "YAWN",
-        "hex": "0x20",
-        "screenshot": "sleepy",
-        "cascadesName": "SLEEPY",
-        "texts": [
-            "(=|",
-            "*YAWN*",
-            "*Yawn*",
-            "*yawn*"
-        ]
-    },
-    {
-        "name": "LIPS_SEALED",
-        "hex": "0x21",
-        "screenshot": "shhh",
-        "cascadesName": "SHHH",
-        "texts": [
-            ":SS",
-            ":-SS",
-            ":ss",
-            ":-ss",
-            ":X",
-            ":x",
-            ":-X",
-            ":-x",
-            "=X",
-            "=x",
-            "=-X",
-            "=-x"
-        ]
-    },
-    {
-        "name": "ANGEL",
-        "hex": "0x22",
-        "screenshot": "angel",
-        "cascadesName": "ANGEL",
-        "texts": [
-            "O:)",
-            "o:)",
-            "O-:)",
-            "o-:)",
-            "O=)",
-            "o=)",
-            "O-=)",
-            "o-=)"
-        ]
-    },
-    {
-        "name": "DEVIL",
-        "hex": "0x23",
-        "screenshot": "devil",
-        "cascadesName": "DEVIL",
-        "texts": [
-            ">=)"
-        ]
-    },
-    {
-        "name": "NERD",
-        "hex": "0x24",
-        "screenshot": "nerd",
-        "cascadesName": "NERD",
-        "texts": [
-            "*NERD*",
-            "*Nerd*",
-            "*nerd*"
-        ]
-    },
-    {
-        "name": "COOL",
-        "hex": "0x25",
-        "screenshot": "cool_sunglasses",
-        "cascadesName": "COOL_SUNGLASSES",
-        "texts": [
-            "B-)",
-            "b-)"
-        ]
-    },
-    {
-        "name": "ON_THE_PHONE",
-        "hex": "0x26",
-        "screenshot": "one_moment_on_phone",
-        "cascadesName": "ONE_MOMENT_ON_PHONE",
-        "texts": [
-            "=)]",
-            "*ONTHEPHONE*",
-            "*Onthephone*",
-            "*onthephone*"
-        ]
-    },
-    {
-        "name": "ONE_MOMENT",
-        "hex": "0x27",
-        "screenshot": "one_moment",
-        "cascadesName": "ONE_MOMENT",
-        "texts": [
-            "=]MIN",
-            "=]Min",
-            "=]min",
-            "*BMIN*",
-            "*Bmin*",
-            "*bmin*"
-        ]
-    },
-    {
-        "name": "CALL_ME",
-        "hex": "0x28",
-        "screenshot": "call_me",
-        "cascadesName": "CALL_ME",
-        "texts": [
-            "=-C",
-            "=-c",
-            "*CALLME*",
-            "*Callme*",
-            "*CallMe*",
-            "*callme*"
-        ]
-    },
-    {
-        "name": "COFFEE",
-        "hex": "0x29",
-        "screenshot": "coffee",
-        "cascadesName": "COFFEE",
-        "texts": [
-            "~O)",
-            "~o)",
-            "*COFFEE*",
-            "*Coffee*",
-            "*coffee*"
-        ]
-    },
-    {
-        "name": "BEER",
-        "hex": "0x2A",
-        "screenshot": "beer",
-        "cascadesName": "BEER",
-        "texts": [
-            "*BEER*",
-            "*Beer*",
-            "*beer*"
-        ]
-    },
-    {
-        "name": "WINE",
-        "hex": "0x2B",
-        "screenshot": "wine",
-        "cascadesName": "WINE",
-        "texts": [
-            "*WINE*",
-            "*Wine*",
-            "*wine*"
-        ]
-    },
-    {
-        "name": "DINNERWARE",
-        "hex": "0x2C",
-        "screenshot": "dinnerware",
-        "cascadesName": "DINNERWARE",
-        "texts": [
-            "*DINE*",
-            "*Dine*",
-            "*dine*"
-        ]
-    },
-    {
-        "name": "ROSE_FLOWER",
-        "hex": "0x2D",
-        "screenshot": "rose_flower",
-        "cascadesName": "ROSE_FLOWER",
-        "texts": [
-            "@>--",
-            "(ROSE)",
-            "(Rose)",
-            "(rose)"
-        ]
-    },
-    {
-        "name": "GIFT",
-        "hex": "0x2E",
-        "screenshot": "gift",
-        "cascadesName": "GIFT",
-        "texts": [
-            "*GIFT*",
-            "*Gift*",
-            "*gift*"
-        ]
-    },
-    {
-        "name": "BIRTHDAY_CAKE",
-        "hex": "0x2F",
-        "screenshot": "birthday_cake",
-        "cascadesName": "BIRTHDAY_CAKE",
-        "texts": [
-            "*BDAY*",
-            "*Bday*",
-            "*bday*"
-        ]
-    },
-    {
-        "name": "GOLD_STAR",
-        "hex": "0x30",
-        "screenshot": "star",
-        "cascadesName": "STAR",
-        "texts": [
-            "(*)"
-        ]
-    },
-    {
-        "name": "AEROPLANE",
-        "hex": "0x31",
-        "screenshot": "aeroplane",
-        "cascadesName": "AEROPLANE",
-        "texts": [
-            "*FLY*",
-            "*Fly*",
-            "*fly*"
-        ]
-    },
-    {
-        "name": "DRIVING",
-        "hex": "0x32",
-        "screenshot": "driving",
-        "cascadesName": "DRIVING",
-        "texts": [
-            "=]()",
-            "*BDRIVE*",
-            "*BDrive*",
-            "*Bdrive*",
-            "*bdrive*"
-        ]
-    },
-    {
-        "name": "MUSIC_NOTE",
-        "hex": "0x33",
-        "screenshot": "music_note",
-        "cascadesName": "MUSIC_NOTE",
-        "texts": [
-            "*MUSIC*",
-            "*Music*",
-            "*music*"
-        ]
-    },
-    {
-        "name": "THINKING",
-        "hex": "0x34",
-        "screenshot": "thought_bubble",
-        "cascadesName": "THOUGHT_BUBBLE",
-        "texts": [
-            "=-?",
-            "*THINKING*",
-            "*Thinking*",
-            "*thinking*"
-        ]
-    },
-    {
-        "name": "WAITING",
-        "hex": "0x35",
-        "screenshot": "clock",
-        "cascadesName": "CLOCK",
-        "texts": [
-            "*...*",
-            "*WAITING*",
-            "*Waiting*",
-            "*waiting*"
-        ]
-    },
-    {
-        "name": "YES",
-        "hex": "0x36",
-        "screenshot": "thumbs_up",
-        "cascadesName": "THUMBS_UP",
-        "texts": [
-            "(Y)",
-            "(y)"
-        ]
-    },
-    {
-        "name": "NO",
-        "hex": "0x37",
-        "screenshot": "thumbs_down",
-        "cascadesName": "THUMBS_DOWN",
-        "texts": [
-            "(N)",
-            "(n)"
-        ]
-    },
-    {
-        "name": "HEART",
-        "hex": "0x38",
-        "screenshot": "heart",
-        "cascadesName": "HEART",
-        "texts": [
-            "<3"
-        ]
-    },
-    {
-        "name": "BROKEN_HEART",
-        "hex": "0x39",
-        "screenshot": "heart_broken",
-        "cascadesName": "HEART_BROKEN",
-        "texts": [
-            "</3"
-        ]
-    },
-    {
-        "name": "EARS_COVERED",
-        "hex": "0x3C",
-        "screenshot": "loud_ears_covered",
-        "cascadesName": "LOUD_EARS_COVERED",
-        "texts": [
-            "|:O|",
-            "|:o|"
-        ]
-    },
-    {
-        "name": "ROCK_ON",
-        "hex": "0x3D",
-        "screenshot": "rock_on",
-        "cascadesName": "ROCK_ON",
-        "texts": [
-            "\\M/",
-            "\\m/"
-        ]
-    },
-    {
-        "name": "SLEEPING",
-        "hex": "0x41",
-        "screenshot": "sleeping",
-        "cascadesName": "SLEEPING",
-        "texts": [
-            "|-)"
-        ]
-    },
-    {
-        "name": "CRAZY",
-        "hex": "0x42",
-        "screenshot": "crazy",
-        "cascadesName": "CRAZY",
-        "texts": [
-            "!-)"
-        ]
-    },
-    {
-        "name": "DIZZY",
-        "hex": "0x43",
-        "screenshot": "stoned_dizzy",
-        "cascadesName": "STONED_DIZZY",
-        "texts": [
-            "8-}"
-        ]
-    },
-    {
-        "name": "DROOLING",
-        "hex": "0x44",
-        "screenshot": "drooling",
-        "cascadesName": "DROOLING",
-        "texts": [
-            ":G",
-            ":g"
-        ]
-    },
-    {
-        "name": "DOH",
-        "hex": "0x45",
-        "screenshot": "doh",
-        "cascadesName": "DOH",
-        "texts": [
-            "X-O",
-            "X-o",
-            "x-o"
-        ]
-    },
-    {
-        "name": "STEAM_FROM_EARS",
-        "hex": "0x46",
-        "screenshot": "steam_from_ears",
-        "cascadesName": "STEAM_FROM_EARS",
-        "texts": [
-            "~:-)"
-        ]
-    },
-    {
-        "name": "SHHH!",
-        "hex": "0x47",
-        "screenshot": "shhh!",
-        "cascadesName": "SHHH!",
-        "texts": [
-            ";-SHH",
-            ";-shh",
-            ";SHH",
-            ";shh"
-        ]
-    },
-    {
-        "name": "PEACE_SIGN",
-        "hex": "0x48",
-        "screenshot": "peace_sign",
-        "cascadesName": "PEACE_SIGN",
-        "texts": [
-            ":E>",
-            ":e>"
-        ]
-    },
-    {
-        "name": "SNOW",
-        "hex": "0x4C",
-        "screenshot": "snow_flake",
-        "cascadesName": "SNOW_FLAKE",
-        "texts": [
-            "*SNOW*",
-            "*Snow*",
-            "*snow*"
-        ]
-    },
-    {
-        "name": "SUN",
-        "hex": "0x4D",
-        "screenshot": "sun",
-        "cascadesName": "SUN",
-        "texts": [
-            "*SUN*",
-            "*Sun*",
-            "*sun*"
-        ]
-    },
-    {
-        "name": "RAIN",
-        "hex": "0x4E",
-        "screenshot": "rain_cloud",
-        "cascadesName": "RAIN_CLOUD",
-        "texts": [
-            "*RAIN*",
-            "*Rain*",
-            "*rain*"
-        ]
-    },
-    {
-        "name": "STORM",
-        "hex": "0x4F",
-        "screenshot": "rain_cloud_w_lightning",
-        "cascadesName": "RAIN_CLOUD_W_LIGHTNING",
-        "texts": [
-            "*STORM*",
-            "*Storm*",
-            "*storm*"
-        ]
-    },
-    {
-        "name": "PICTURE",
-        "hex": "0x53",
-        "screenshot": "picture_please_cam",
-        "cascadesName": "PICTURE_PLEASE_CAM",
-        "texts": [
-            "*PIC*",
-            "*Pic*",
-            "*pic*"
-        ]
-    },
-    {
-        "name": "IDEA",
-        "hex": "0x55",
-        "screenshot": "idea_light_bulb",
-        "cascadesName": "IDEA_LIGHT_BULB",
-        "texts": [
-            "*BULB*",
-            "*Bulb*",
-            "*bulb*",
-            "*IDEA*",
-            "*Idea*",
-            "*idea*"
-        ]
-    },
-    {
-        "name": "GTG",
-        "hex": "0x58",
-        "screenshot": "running_guy",
-        "cascadesName": "RUNNING_GUY",
-        "texts": [
-            "*GTG*",
-            "*Gtg*",
-            "*gtg*",
-            "*RUN*",
-            "*Run*",
-            "*run*"
-        ]
-    },
-    {
-        "name": "BLANK",
-        "hex": "0x5B",
-        "screenshot": "blank",
-        "cascadesName": "BLANK",
-        "texts": [
-            "*BLANK*",
-            "*Blank*",
-            "*blank*"
-        ]
-    }
+   {
+      "name":"SMILE",
+      "hex":"0x01",
+      "screenshot":"smile",
+      "cascadesName":"SMILE",
+      "texts":[
+         ":)",
+         ":-)",
+         "=)",
+         "=-)"
+      ]
+   },
+   {
+      "name":"WINK",
+      "hex":"0x02",
+      "screenshot":"wink",
+      "cascadesName":"WINK",
+      "texts":[
+         ";)",
+         ";-)"
+      ]
+   },
+   {
+      "name":"BIG_SMILE",
+      "hex":"0x03",
+      "screenshot":"big_grin",
+      "cascadesName":"BIG_GRIN",
+      "texts":[
+         ":D",
+         ":d",
+         ":-D",
+         ":-d",
+         "=-D",
+         "=-d"
+      ]
+   },
+   {
+      "name":"LAUGHING",
+      "hex":"0x04",
+      "screenshot":"laughing",
+      "cascadesName":"LAUGHING",
+      "texts":[
+         "=D",
+         "=d"
+      ]
+   },
+   {
+      "name":"ROTFL",
+      "hex":"0x05",
+      "screenshot":"rofl",
+      "cascadesName":"ROFL",
+      "texts":[
+         "=))"
+      ]
+   },
+   {
+      "name":"BIG_HUG",
+      "hex":"0x06",
+      "screenshot":"big_hug",
+      "cascadesName":"BIG_HUG",
+      "texts":[
+         "({})"
+      ]
+   },
+   {
+      "name":"DANCING",
+      "hex":"0x07",
+      "screenshot":"dancing_raise_roof",
+      "cascadesName":"DANCING_RAISE_ROOF",
+      "texts":[
+         "\\=D/",
+         "\\=d/"
+      ]
+   },
+   {
+      "name":"PARTY",
+      "hex":"0x08",
+      "screenshot":"party",
+      "cascadesName":"PARTY",
+      "texts":[
+         "<=-P",
+         "<=-p",
+         "*PARTY*",
+         "*Party*",
+         "*party*"
+      ]
+   },
+   {
+      "name":"TONGUE_OUT",
+      "hex":"0x09",
+      "screenshot":"tongue_out",
+      "cascadesName":"TONGUE_OUT",
+      "texts":[
+         ":P",
+         ":p",
+         ":-P",
+         ":-p",
+         "=P",
+         "=p",
+         "=-P",
+         "=-p"
+      ]
+   },
+   {
+      "name":"EYELASHES",
+      "hex":"0x0A",
+      "screenshot":"eyelashes",
+      "cascadesName":"EYELASHES",
+      "texts":[
+         ";;)"
+      ]
+   },
+   {
+      "name":"LOVE_STRUCK",
+      "hex":"0x0B",
+      "screenshot":"i_love_you",
+      "cascadesName":"I_LOVE_YOU",
+      "texts":[
+         "<3<3"
+      ]
+   },
+   {
+      "name":"KISS",
+      "hex":"0x0C",
+      "screenshot":"kisses",
+      "cascadesName":"KISSES",
+      "texts":[
+         ":*",
+         ":-*",
+         "=*",
+         "=-*"
+      ]
+   },
+   {
+      "name":"STRAIGHT_FACE",
+      "hex":"0x0D",
+      "screenshot":"straight_face",
+      "cascadesName":"STRAIGHT_FACE",
+      "texts":[
+         ":|",
+         "=|"
+      ]
+   },
+   {
+      "name":"RAISED_EYEBROW",
+      "hex":"0x0E",
+      "screenshot":"raised_eyebrow",
+      "cascadesName":"RAISED_EYEBROW",
+      "texts":[
+         "/:)",
+         "/=)"
+      ]
+   },
+   {
+      "name":"SARCASTIC",
+      "hex":"0x0F",
+      "screenshot":"sarcastic_look",
+      "cascadesName":"SARCASTIC_LOOK",
+      "texts":[
+         ":>",
+         ":->",
+         "=>",
+         "=->"
+      ]
+   },
+   {
+      "name":"NOT_INTERESTED",
+      "hex":"0x10",
+      "screenshot":"shrug",
+      "cascadesName":"SHRUG",
+      "texts":[
+         "3-|",
+         ":]X",
+         ":]x",
+         "=]X",
+         "=]x"
+      ]
+   },
+   {
+      "name":"TALK_TO_THE_HAND",
+      "hex":"0x12",
+      "screenshot":"talk_to_the_hand",
+      "cascadesName":"TALK_TO_THE_HAND",
+      "texts":[
+         ">:/",
+         ">=/"
+      ]
+   },
+   {
+      "name":"EYES_ROLLING",
+      "hex":"0x13",
+      "screenshot":"rolling_eyes",
+      "cascadesName":"ROLLING_EYES",
+      "texts":[
+         "*EYESROLLING*",
+         "*Eyesrolling*",
+         "*eyesrolling*"
+      ]
+   },
+   {
+      "name":"DONT_KNOW",
+      "hex":"0x14",
+      "screenshot":"dont_know",
+      "cascadesName":"DONT_KNOW",
+      "texts":[
+         ":]Y",
+         ":]y",
+         "=]Y",
+         "=]y"
+      ]
+   },
+   {
+      "name":"CONFUSED",
+      "hex":"0x15",
+      "screenshot":"confused",
+      "cascadesName":"CONFUSED",
+      "texts":[
+         ":S",
+         ":s",
+         ":-S",
+         ":-s",
+         "=S",
+         "=s",
+         "=-S",
+         "=-s"
+      ]
+   },
+   {
+      "name":"SICK",
+      "hex":"0x16",
+      "screenshot":"sick_ill",
+      "cascadesName":"SICK_ILL",
+      "texts":[
+         ":&",
+         ":-&",
+         "=&",
+         "=-&",
+         "*SICK*",
+         "*Sick*",
+         "*sick*"
+      ]
+   },
+   {
+      "name":"FEELING_BEAT_UP",
+      "hex":"0x17",
+      "screenshot":"feeling_beat_up",
+      "cascadesName":"FEELING_BEAT_UP",
+      "texts":[
+         ":]XX",
+         ":]xx",
+         "=]XX",
+         "=]xx"
+      ]
+   },
+   {
+      "name":"SAD",
+      "hex":"0x18",
+      "screenshot":"sad",
+      "cascadesName":"SAD",
+      "texts":[
+         ":(",
+         ":-(",
+         "=(",
+         "=-("
+      ]
+   },
+   {
+      "name":"CRYING",
+      "hex":"0x19",
+      "screenshot":"crying",
+      "cascadesName":"CRYING",
+      "texts":[
+         ":\'(",
+         "=\'("
+      ]
+   },
+   {
+      "name":"ANGRY",
+      "hex":"0x1A",
+      "screenshot":"angry",
+      "cascadesName":"ANGRY",
+      "texts":[
+         ">:O",
+         ">:o",
+         ">:-O",
+         ">:-o",
+         ">=O",
+         ">=o",
+         ">=-O",
+         ">=-o"
+      ]
+   },
+   {
+      "name":"EMBARRASSED",
+      "hex":"0x1B",
+      "screenshot":"embarrassed",
+      "cascadesName":"EMBARRASSED",
+      "texts":[
+         ":$",
+         ":-$",
+         "=$",
+         "=-$"
+      ]
+   },
+   {
+      "name":"WHEW",
+      "hex":"0x1C",
+      "screenshot":"phew",
+      "cascadesName":"PHEW",
+      "texts":[
+         "#:-S",
+         "#:-s",
+         "#=-S",
+         "#=-s"
+      ]
+   },
+   {
+      "name":"HUH",
+      "hex":"0x1D",
+      "screenshot":"huh",
+      "cascadesName":"HUH",
+      "texts":[
+         ":/",
+         ":-/",
+         "=/",
+         "=-/"
+      ]
+   },
+   {
+      "name":"SURPRISED",
+      "hex":"0x1E",
+      "screenshot":"surprise_shock",
+      "cascadesName":"SURPRISE_SHOCK",
+      "texts":[
+         ":O",
+         ":o",
+         ":-O",
+         ":-o",
+         "=O",
+         "=o",
+         "=-O",
+         "=-o"
+      ]
+   },
+   {
+      "name":"CANT_WATCH",
+      "hex":"0x1F",
+      "screenshot":"cant_watch_worried",
+      "cascadesName":"CANT_WATCH_WORRIED",
+      "texts":[
+         "X_X",
+         "x_x"
+      ]
+   },
+   {
+      "name":"YAWN",
+      "hex":"0x20",
+      "screenshot":"sleepy",
+      "cascadesName":"SLEEPY",
+      "texts":[
+         "(=|",
+         "*YAWN*",
+         "*Yawn*",
+         "*yawn*"
+      ]
+   },
+   {
+      "name":"LIPS_SEALED",
+      "hex":"0x21",
+      "screenshot":"shhh",
+      "cascadesName":"SHHH",
+      "texts":[
+         ":X",
+         ":x",
+         ":-X",
+         ":-x",
+         "=X",
+         "=x",
+         "=-X",
+         "=-x",
+         ";-SHH",
+         ";-shh",
+         ";SHH",
+         ";shh"
+      ]
+   },
+   {
+      "name":"ANGEL",
+      "hex":"0x22",
+      "screenshot":"angel",
+      "cascadesName":"ANGEL",
+      "texts":[
+         "O:)",
+         "o:)",
+         "O-:)",
+         "o-:)",
+         "O=)",
+         "o=)",
+         "O-=)",
+         "o-=)"
+      ]
+   },
+   {
+      "name":"DEVIL",
+      "hex":"0x23",
+      "screenshot":"devil",
+      "cascadesName":"DEVIL",
+      "texts":[
+         ">=)"
+      ]
+   },
+   {
+      "name":"NERD",
+      "hex":"0x24",
+      "screenshot":"nerd",
+      "cascadesName":"NERD",
+      "texts":[
+         "*NERD*",
+         "*Nerd*",
+         "*nerd*"
+      ]
+   },
+   {
+      "name":"COOL",
+      "hex":"0x25",
+      "screenshot":"cool_sunglasses",
+      "cascadesName":"COOL_SUNGLASSES",
+      "texts":[
+         "B-)",
+         "b-)"
+      ]
+   },
+   {
+      "name":"ON_THE_PHONE",
+      "hex":"0x26",
+      "screenshot":"one_moment_on_phone",
+      "cascadesName":"ONE_MOMENT_ON_PHONE",
+      "texts":[
+         "=)]",
+         "*ONTHEPHONE*",
+         "*Onthephone*",
+         "*onthephone*"
+      ]
+   },
+   {
+      "name":"ONE_MOMENT",
+      "hex":"0x27",
+      "screenshot":"one_moment",
+      "cascadesName":"ONE_MOMENT",
+      "texts":[
+         "=]MIN",
+         "=]Min",
+         "=]min",
+         "*BMIN*",
+         "*Bmin*",
+         "*bmin*"
+      ]
+   },
+   {
+      "name":"CALL_ME",
+      "hex":"0x28",
+      "screenshot":"call_me",
+      "cascadesName":"CALL_ME",
+      "texts":[
+         "=-C",
+         "=-c",
+         "*CALLME*",
+         "*Callme*",
+         "*CallMe*",
+         "*callme*"
+      ]
+   },
+   {
+      "name":"COFFEE",
+      "hex":"0x29",
+      "screenshot":"coffee",
+      "cascadesName":"COFFEE",
+      "texts":[
+         "~O)",
+         "~o)",
+         "*COFFEE*",
+         "*Coffee*",
+         "*coffee*"
+      ]
+   },
+   {
+      "name":"BEER",
+      "hex":"0x2A",
+      "screenshot":"beer",
+      "cascadesName":"BEER",
+      "texts":[
+         "*BEER*",
+         "*Beer*",
+         "*beer*"
+      ]
+   },
+   {
+      "name":"WINE",
+      "hex":"0x2B",
+      "screenshot":"wine",
+      "cascadesName":"WINE",
+      "texts":[
+         "*WINE*",
+         "*Wine*",
+         "*wine*"
+      ]
+   },
+   {
+      "name":"DINNERWARE",
+      "hex":"0x2C",
+      "screenshot":"dinnerware",
+      "cascadesName":"DINNERWARE",
+      "texts":[
+         "*DINE*",
+         "*Dine*",
+         "*dine*"
+      ]
+   },
+   {
+      "name":"ROSE_FLOWER",
+      "hex":"0x2D",
+      "screenshot":"rose_flower",
+      "cascadesName":"ROSE_FLOWER",
+      "texts":[
+         "@>--",
+         "(ROSE)",
+         "(Rose)",
+         "(rose)"
+      ]
+   },
+   {
+      "name":"GIFT",
+      "hex":"0x2E",
+      "screenshot":"gift",
+      "cascadesName":"GIFT",
+      "texts":[
+         "*GIFT*",
+         "*Gift*",
+         "*gift*"
+      ]
+   },
+   {
+      "name":"BIRTHDAY_CAKE",
+      "hex":"0x2F",
+      "screenshot":"birthday_cake",
+      "cascadesName":"BIRTHDAY_CAKE",
+      "texts":[
+         "*BDAY*",
+         "*Bday*",
+         "*bday*"
+      ]
+   },
+   {
+      "name":"GOLD_STAR",
+      "hex":"0x30",
+      "screenshot":"star",
+      "cascadesName":"STAR",
+      "texts":[
+         "(*)"
+      ]
+   },
+   {
+      "name":"AEROPLANE",
+      "hex":"0x31",
+      "screenshot":"aeroplane",
+      "cascadesName":"AEROPLANE",
+      "texts":[
+         "*FLY*",
+         "*Fly*",
+         "*fly*"
+      ]
+   },
+   {
+      "name":"DRIVING",
+      "hex":"0x32",
+      "screenshot":"driving",
+      "cascadesName":"DRIVING",
+      "texts":[
+         "=]()",
+         "*BDRIVE*",
+         "*BDrive*",
+         "*Bdrive*",
+         "*bdrive*"
+      ]
+   },
+   {
+      "name":"MUSIC_NOTE",
+      "hex":"0x33",
+      "screenshot":"music_note",
+      "cascadesName":"MUSIC_NOTE",
+      "texts":[
+         "*MUSIC*",
+         "*Music*",
+         "*music*"
+      ]
+   },
+   {
+      "name":"THINKING",
+      "hex":"0x34",
+      "screenshot":"thought_bubble",
+      "cascadesName":"THOUGHT_BUBBLE",
+      "texts":[
+         "=-?",
+         "*THINKING*",
+         "*Thinking*",
+         "*thinking*"
+      ]
+   },
+   {
+      "name":"WAITING",
+      "hex":"0x35",
+      "screenshot":"clock",
+      "cascadesName":"CLOCK",
+      "texts":[
+         "*...*",
+         "*WAITING*",
+         "*Waiting*",
+         "*waiting*"
+      ]
+   },
+   {
+      "name":"YES",
+      "hex":"0x36",
+      "screenshot":"thumbs_up",
+      "cascadesName":"THUMBS_UP",
+      "texts":[
+         "(Y)",
+         "(y)"
+      ]
+   },
+   {
+      "name":"NO",
+      "hex":"0x37",
+      "screenshot":"thumbs_down",
+      "cascadesName":"THUMBS_DOWN",
+      "texts":[
+         "(N)",
+         "(n)"
+      ]
+   },
+   {
+      "name":"HEART",
+      "hex":"0x38",
+      "screenshot":"heart",
+      "cascadesName":"HEART",
+      "texts":[
+         "<3"
+      ]
+   },
+   {
+      "name":"BROKEN_HEART",
+      "hex":"0x39",
+      "screenshot":"heart_broken",
+      "cascadesName":"HEART_BROKEN",
+      "texts":[
+         "</3"
+      ]
+   },
+   {
+      "name":"EARS_COVERED",
+      "hex":"0x3C",
+      "screenshot":"loud_ears_covered",
+      "cascadesName":"LOUD_EARS_COVERED",
+      "texts":[
+         "|:O|",
+         "|:o|"
+      ]
+   },
+   {
+      "name":"ROCK_ON",
+      "hex":"0x3D",
+      "screenshot":"rock_on",
+      "cascadesName":"ROCK_ON",
+      "texts":[
+         "\\M/",
+         "\\m/"
+      ]
+   },
+   {
+      "name":"SLEEPING",
+      "hex":"0x41",
+      "screenshot":"sleeping",
+      "cascadesName":"SLEEPING",
+      "texts":[
+         "|-)"
+      ]
+   },
+   {
+      "name":"CRAZY",
+      "hex":"0x42",
+      "screenshot":"crazy",
+      "cascadesName":"CRAZY",
+      "texts":[
+         "!-)"
+      ]
+   },
+   {
+      "name":"DIZZY",
+      "hex":"0x43",
+      "screenshot":"stoned_dizzy",
+      "cascadesName":"STONED_DIZZY",
+      "texts":[
+         "8-}"
+      ]
+   },
+   {
+      "name":"DROOLING",
+      "hex":"0x44",
+      "screenshot":"drooling",
+      "cascadesName":"DROOLING",
+      "texts":[
+         ":G",
+         ":g"
+      ]
+   },
+   {
+      "name":"DOH",
+      "hex":"0x45",
+      "screenshot":"doh",
+      "cascadesName":"DOH",
+      "texts":[
+         "X-O",
+         "X-o",
+         "x-o"
+      ]
+   },
+   {
+      "name":"STEAM_FROM_EARS",
+      "hex":"0x46",
+      "screenshot":"steam_from_ears",
+      "cascadesName":"STEAM_FROM_EARS",
+      "texts":[
+         "~:-)"
+      ]
+   },
+   {
+      "name":"PEACE_SIGN",
+      "hex":"0x48",
+      "screenshot":"peace_sign",
+      "cascadesName":"PEACE_SIGN",
+      "texts":[
+         ":E>",
+         ":e>"
+      ]
+   },
+   {
+      "name":"SNOW",
+      "hex":"0x4C",
+      "screenshot":"snow_flake",
+      "cascadesName":"SNOW_FLAKE",
+      "texts":[
+         "*SNOW*",
+         "*Snow*",
+         "*snow*"
+      ]
+   },
+   {
+      "name":"SUN",
+      "hex":"0x4D",
+      "screenshot":"sun",
+      "cascadesName":"SUN",
+      "texts":[
+         "*SUN*",
+         "*Sun*",
+         "*sun*"
+      ]
+   },
+   {
+      "name":"RAIN",
+      "hex":"0x4E",
+      "screenshot":"rain_cloud",
+      "cascadesName":"RAIN_CLOUD",
+      "texts":[
+         "*RAIN*",
+         "*Rain*",
+         "*rain*"
+      ]
+   },
+   {
+      "name":"STORM",
+      "hex":"0x4F",
+      "screenshot":"rain_cloud_w_lightning",
+      "cascadesName":"RAIN_CLOUD_W_LIGHTNING",
+      "texts":[
+         "*STORM*",
+         "*Storm*",
+         "*storm*"
+      ]
+   },
+   {
+      "name":"PICTURE",
+      "hex":"0x53",
+      "screenshot":"picture_please_cam",
+      "cascadesName":"PICTURE_PLEASE_CAM",
+      "texts":[
+         "*PIC*",
+         "*Pic*",
+         "*pic*"
+      ]
+   },
+   {
+      "name":"IDEA",
+      "hex":"0x55",
+      "screenshot":"idea_light_bulb",
+      "cascadesName":"IDEA_LIGHT_BULB",
+      "texts":[
+         "*BULB*",
+         "*Bulb*",
+         "*bulb*",
+         "*IDEA*",
+         "*Idea*",
+         "*idea*"
+      ]
+   },
+   {
+      "name":"GTG",
+      "hex":"0x58",
+      "screenshot":"running_guy",
+      "cascadesName":"RUNNING_GUY",
+      "texts":[
+         "*GTG*",
+         "*Gtg*",
+         "*gtg*",
+         "*RUN*",
+         "*Run*",
+         "*run*"
+      ]
+   },
+   {
+      "name":"BLANK",
+      "hex":"0x5B",
+      "screenshot":"blank",
+      "cascadesName":"BLANK",
+      "texts":[
+         "*BLANK*",
+         "*Blank*",
+         "*blank*"
+      ]
+   },
+   {
+      "name":"MOON",
+      "hex":"0x5c",
+      "screenshot":"moon",
+      "cascadesName":"MOON",
+      "texts":[
+         "*moon*",
+         "*MOON*",
+         "*Moon*"
+      ]
+   },
+   {
+      "name":"RAINBOW",
+      "hex":"0x5d",
+      "screenshot":"rainbow",
+      "cascadesName":"RAINBOW",
+      "texts":[
+         "*rainbow*",
+         "*RAINBOW*",
+         "*Rainbow*"
+      ]
+   },
+   {
+      "name":"FINGERS CROSSED",
+      "hex":"0x5e",
+      "screenshot":"fingers_crossed",
+      "cascadesName":"FINGERS_CROSSED",
+      "texts":[
+         "(yn)",
+         "*smm*",
+         "*SMM*"
+      ]
+   },
+   {
+      "name":"FIST",
+      "hex":"0x5f",
+      "screenshot":"fist",
+      "cascadesName":"FIST",
+      "texts":[
+         "*fist*",
+         "*FIST*",
+         "*Fist*"
+      ]
+   },
+   {
+      "name":"SCARED",
+      "hex":"0x60",
+      "screenshot":"scared",
+      "cascadesName":"SCARED",
+      "texts":[
+         ":+(",
+         "=+("
+      ]
+   },
+   {
+      "name":"SHOUTING",
+      "hex":"0x61",
+      "screenshot":"shouting",
+      "cascadesName":"SHOUTING",
+      "texts":[
+         ":-V",
+         "=-V"
+      ]
+   },
+   {
+      "name":"STARRY-EYED",
+      "hex":"0x62",
+      "screenshot":"starry-eyed",
+      "cascadesName":"STARRY-EYED",
+      "texts":[
+         "**-)"
+      ]
+   },
+   {
+      "name":"HUNG OVER",
+      "hex":"0x63",
+      "screenshot":"hung_over",
+      "cascadesName":"HUNG_OVER",
+      "texts":[
+         "%-\\"
+      ]
+   },
+   {
+      "name":"HIGH FIVE",
+      "hex":"0x64",
+      "screenshot":"high_five",
+      "cascadesName":"HIGH_FIVE",
+      "texts":[
+         "^5"
+      ]
+   },
+   {
+      "name":"SINGLE TEAR",
+      "hex":"0x65",
+      "screenshot":"single_tear",
+      "cascadesName":"SINGLE_TEAR",
+      "texts":[
+         "*tear*",
+         "*TEAR*",
+         "*Tear*"
+      ]
+   },
+   {
+      "name":"YAWN",
+      "hex":"0x66",
+      "screenshot":"yawn",
+      "cascadesName":"YAWN",
+      "texts":[
+         "|-O"
+      ]
+   },
+   {
+      "name":"MONEY MINDED",
+      "hex":"0x67",
+      "screenshot":"money_minded",
+      "cascadesName":"MONEY_MINDED",
+      "texts":[
+         "$_$"
+      ]
+   },
+   {
+      "name":"YUCK",
+      "hex":"0x68",
+      "screenshot":"yuck",
+      "cascadesName":"YUCK",
+      "texts":[
+         "*yuck*",
+         "*YUCK*",
+         "*Yuck*"
+      ]
+   },
+   {
+      "name":"CONFUSED",
+      "hex":"0x69",
+      "screenshot":"confused",
+      "cascadesName":"CONFUSED",
+      "texts":[
+         "O.o"
+      ]
+   },
+   {
+      "name":"TAUNT",
+      "hex":"0x6b",
+      "screenshot":"taunt",
+      "cascadesName":"TAUNT",
+      "texts":[
+         "X-p"
+      ]
+   },
+   {
+      "name":"VAMPIRE",
+      "hex":"0x6c",
+      "screenshot":"vampire",
+      "cascadesName":"VAMPIRE",
+      "texts":[
+         ":-E",
+         "=-E"
+      ]
+   },
+   {
+      "name":"ZOMBIE",
+      "hex":"0x6d",
+      "screenshot":"zombie",
+      "cascadesName":"ZOMBIE",
+      "texts":[
+         "8-#"
+      ]
+   },
+   {
+      "name":"TONGUE AND CHEEK",
+      "hex":"0x6e",
+      "screenshot":"tongue_and_cheek",
+      "cascadesName":"TONGUE_AND_CHEEK",
+      "texts":[
+         ":-J",
+         "=-J"
+      ]
+   },
+   {
+      "name":"TONGUE TIED",
+      "hex":"0x6f",
+      "screenshot":"tongue_tied",
+      "cascadesName":"TONGUE_TIED",
+      "texts":[
+         ":^&",
+         "=^&"
+      ]
+   },
+   {
+      "name":"SMUG",
+      "hex":"0x70",
+      "screenshot":"smug",
+      "cascadesName":"SMUG",
+      "texts":[
+         ":^>",
+         "=^>"
+      ]
+   },
+   {
+      "name":"CHECK MARK - YES",
+      "hex":"0x71",
+      "screenshot":"check_mark_-_yes",
+      "cascadesName":"CHECK_MARK_-_YES",
+      "texts":[
+         "*y*"
+      ]
+   },
+   {
+      "name":"RED X - NO",
+      "hex":"0x72",
+      "screenshot":"red_x_-_no",
+      "cascadesName":"RED_X_-_NO",
+      "texts":[
+         "*n*"
+      ]
+   },
+   {
+      "name":"CROWN - KING",
+      "hex":"0x73",
+      "screenshot":"crown_-_king",
+      "cascadesName":"CROWN_-_KING",
+      "texts":[
+         "\\VVV/"
+      ]
+   },
+   {
+      "name":"CROWN - QUEEN",
+      "hex":"0x74",
+      "screenshot":"crown_-_queen",
+      "cascadesName":"CROWN_-_QUEEN",
+      "texts":[
+         "\\%%%/"
+      ]
+   },
+   {
+      "name":"FAIL",
+      "hex":"0x75",
+      "screenshot":"fail",
+      "cascadesName":"FAIL",
+      "texts":[
+         "p(-_-)"
+      ]
+   },
+   {
+      "name":"EPIC FAIL",
+      "hex":"0x76",
+      "screenshot":"epic_fail",
+      "cascadesName":"EPIC_FAIL",
+      "texts":[
+         "p(-_-)q"
+      ]
+   },
+   {
+      "name":"WAITING",
+      "hex":"0x77",
+      "screenshot":"waiting",
+      "cascadesName":"WAITING",
+      "texts":[
+         ":-w",
+         "=-w"
+      ]
+   },
+   {
+      "name":"TEA CUP",
+      "hex":"0x78",
+      "screenshot":"tea_cup",
+      "cascadesName":"TEA_CUP",
+      "texts":[
+         "c\\_/",
+         "*tea*",
+         "*TEA*",
+         "*Tea*"
+      ]
+   },
+   {
+      "name":"CHAMPAGNE GLASS",
+      "hex":"0x79",
+      "screenshot":"champagne_class",
+      "cascadesName":"CHAMPAGNE_CLASS",
+      "texts":[
+         "|-C",
+         "*champagne*",
+         "*CHAMPAGNE*",
+         "*Champagne*"
+      ]
+   },
+   {
+      "name":"LIGHT BULB ON HEAD",
+      "hex":"0x7a",
+      "screenshot":"light_bulb_on_head",
+      "cascadesName":"LIGHT_BULB_ON_HEAD",
+      "texts":[
+         "*-:)",
+         "*-=)"
+      ]
+   },
+   {
+      "name":"FINGER IN NOSE",
+      "hex":"0x7b",
+      "screenshot":"finger_in_nose",
+      "cascadesName":"FINGER_IN_NOSE",
+      "texts":[
+         ":^-?",
+         "=^-?"
+      ]
+   },
+   {
+      "name":"FACEPALM",
+      "hex":"0x7c",
+      "screenshot":"facepalm",
+      "cascadesName":"FACEPALM",
+      "texts":[
+         "=;("
+      ]
+   },
+   {
+      "name":"PARTIALLY COVERED EYES",
+      "hex":"0x7d",
+      "screenshot":"partially_covered_eyes",
+      "cascadesName":"PARTIALLY_COVERED_EYES",
+      "texts":[
+         "Y_Y"
+      ]
+   },
+   {
+      "name":"HEADPHONES",
+      "hex":"0x7e",
+      "screenshot":"headphones",
+      "cascadesName":"HEADPHONES",
+      "texts":[
+         "(|oo|)"
+      ]
+   },
+   {
+      "name":"EYES ROLLING",
+      "hex":"0x7f",
+      "screenshot":"eyes_rolling",
+      "cascadesName":"EYES_ROLLING",
+      "texts":[
+         "8-t"
+      ]
+   },
+   {
+      "name":"EATING",
+      "hex":"0x80",
+      "screenshot":"eating",
+      "cascadesName":"EATING",
+      "texts":[
+         "*eating*",
+         "*EATING*",
+         "*Eating*"
+      ]
+   },
+   {
+      "name":"BOXING/FIGHTING",
+      "hex":"0x81",
+      "screenshot":"boxing/fighting",
+      "cascadesName":"BOXING/FIGHTING",
+      "texts":[
+         "*boxing*",
+         "*BOXING*",
+         "*Boxing*"
+      ]
+   },
+   {
+      "name":"HOLDING HANDS",
+      "hex":"0x82",
+      "screenshot":"holding_hands",
+      "cascadesName":"HOLDING_HANDS",
+      "texts":[
+         "\\../"
+      ]
+   },
+   {
+      "name":"SNORING",
+      "hex":"0x83",
+      "screenshot":"snoring",
+      "cascadesName":"SNORING",
+      "texts":[
+         "*zzzzz*"
+      ]
+   },
+   {
+      "name":"PUKING",
+      "hex":"0x84",
+      "screenshot":"puking",
+      "cascadesName":"PUKING",
+      "texts":[
+         "X-&"
+      ]
+   },
+   {
+      "name":"DISGUST",
+      "hex":"0x85",
+      "screenshot":"disgust",
+      "cascadesName":"DISGUST",
+      "texts":[
+         "X-G"
+      ]
+   },
+   {
+      "name":"WHISTLE",
+      "hex":"0x86",
+      "screenshot":"whistile",
+      "cascadesName":"WHISTILE",
+      "texts":[
+         ":-\"",
+         "=-\""
+      ]
+   },
+   {
+      "name":"ROBOT",
+      "hex":"0x87",
+      "screenshot":"robot",
+      "cascadesName":"ROBOT",
+      "texts":[
+         "[:]",
+         "[=]"
+      ]
+   },
+   {
+      "name":"MUSTACHE",
+      "hex":"0x88",
+      "screenshot":"mustache",
+      "cascadesName":"MUSTACHE",
+      "texts":[
+         ":-})",
+         "=-})"
+      ]
+   },
+   {
+      "name":"YELLING NO",
+      "hex":"0x89",
+      "screenshot":"yelling_no",
+      "cascadesName":"YELLING_NO",
+      "texts":[
+         "*Noooo*",
+         "*noooo*",
+         "*NOOOO*"
+      ]
+   },
+   {
+      "name":"JEALOUS",
+      "hex":"0x8a",
+      "screenshot":"jealous",
+      "cascadesName":"JEALOUS",
+      "texts":[
+         ";^L"
+      ]
+   },
+   {
+      "name":"NO SLEEP/TIRED EYES",
+      "hex":"0x8b",
+      "screenshot":"no_sleep/tired_eyes",
+      "cascadesName":"NO_SLEEP/TIRED_EYES",
+      "texts":[
+         "(&_&)"
+      ]
+   },
+   {
+      "name":"NINJA",
+      "hex":"0x8c",
+      "screenshot":"ninja",
+      "cascadesName":"NINJA",
+      "texts":[
+         "*ninja*",
+         "*NINJA*",
+         "*Ninja*"
+      ]
+   },
+   {
+      "name":"FLEXING MUSCLES",
+      "hex":"0x8d",
+      "screenshot":"flexing_muscles",
+      "cascadesName":"FLEXING_MUSCLES",
+      "texts":[
+         "*flex*",
+         "*FLEX*",
+         "*Flex*"
+      ]
+   },
+   {
+      "name":"ROTFL",
+      "hex":"0x8e",
+      "screenshot":"rotfl",
+      "cascadesName":"ROTFL",
+      "texts":[
+         "*ROTFL*",
+         "*rotfl*",
+         "*Rotfl*"
+      ]
+   },
+   {
+      "name":"DISGUISE",
+      "hex":"0x8f",
+      "screenshot":"disguise",
+      "cascadesName":"DISGUISE",
+      "texts":[
+         "8^{)"
+      ]
+   },
+   {
+      "name":"BIG EYES/CUTE EYES",
+      "hex":"0x90",
+      "screenshot":"big_eyes/cute_eyes",
+      "cascadesName":"BIG_EYES/CUTE_EYES",
+      "texts":[
+         "(0.0)"
+      ]
+   },
+   {
+      "name":"CAN'T HEAR YOU/NOT LISTENTING",
+      "hex":"0x91",
+      "screenshot":"can't_hear_you/not_listening",
+      "cascadesName":"CAN'T_HEAR/NOT_LISTENING",
+      "texts":[
+         "%(..)%"
+      ]
+   },
+   {
+      "name":"FISH",
+      "hex":"0x92",
+      "screenshot":"fish",
+      "cascadesName":"FISH",
+      "texts":[
+         "<><"
+      ]
+   },
+   {
+      "name":"DOG",
+      "hex":"0x93",
+      "screenshot":"dog",
+      "cascadesName":"DOG",
+      "texts":[
+         ":o3",
+         "=o3"
+      ]
+   },
+   {
+      "name":"CAT",
+      "hex":"0x94",
+      "screenshot":"cat",
+      "cascadesName":"CAT",
+      "texts":[
+         "=^.^="
+      ]
+   },
+   {
+      "name":"BIRD",
+      "hex":"0x95",
+      "screenshot":"bird",
+      "cascadesName":"BIRD",
+      "texts":[
+         "(*v*)"
+      ]
+   },
+   {
+      "name":"RABBIT",
+      "hex":"0x96",
+      "screenshot":"rabbit",
+      "cascadesName":"RABBIT",
+      "texts":[
+         ">:oB",
+         ">=oB"
+      ]
+   },
+   {
+      "name":"EMO",
+      "hex":"0x97",
+      "screenshot":"emo",
+      "cascadesName":"EMO",
+      "texts":[
+         "//_^"
+      ]
+   },
+   {
+      "name":"BABY",
+      "hex":"0x98",
+      "screenshot":"baby",
+      "cascadesName":"BABY",
+      "texts":[
+         "~:0",
+         "~=0"
+      ]
+   },
+   {
+      "name":"OLD MAN",
+      "hex":"0x99",
+      "screenshot":"old_main",
+      "cascadesName":"old_MAIN",
+      "texts":[
+         "*old*"
+      ]
+   },
+   {
+      "name":"DIAMOND RING",
+      "hex":"0x9a",
+      "screenshot":"diamond_ring",
+      "cascadesName":"DIAMONG_RING",
+      "texts":[
+         "[>O"
+      ]
+   },
+   {
+      "name":"DOZEN ROSES",
+      "hex":"0x9b",
+      "screenshot":"dozen_roses",
+      "cascadesName":"DOZEN_ROSES",
+      "texts":[
+         "@@>~~",
+         "*roses*",
+         "*ROSES*",
+         "*Roses*"
+      ]
+   },
+   {
+      "name":"FLAME",
+      "hex":"0x9c",
+      "screenshot":"flame",
+      "cascadesName":"FLAME",
+      "texts":[
+         "~~:[",
+         "~~=["
+      ]
+   },
+   {
+      "name":"CLOWN",
+      "hex":"0x9d",
+      "screenshot":"clown",
+      "cascadesName":"CLOWN",
+      "texts":[
+         "*<:o)",
+         "*<=o)"
+      ]
+   },
+   {
+      "name":"TORNADO",
+      "hex":"0x9e",
+      "screenshot":"tornado",
+      "cascadesName":"TORNADO",
+      "texts":[
+         "*tornado*",
+         "*TORNADO*",
+         "*Tornado*"
+      ]
+   },
+   {
+      "name":"MANY PRESENTS",
+      "hex":"0x9f",
+      "screenshot":"many_presents",
+      "cascadesName":"MANY_PRESENTS",
+      "texts":[
+         "*gifts*",
+         "*GIFTS*",
+         "*Gifts*"
+      ]
+   },
+   {
+      "name":"NAMASTE",
+      "hex":"0xa0",
+      "screenshot":"namaste",
+      "cascadesName":"NAMASTE",
+      "texts":[
+         ":-)<",
+         "=-)<"
+      ]
+   },
+   {
+      "name":"SKULL",
+      "hex":"0xa1",
+      "screenshot":"skull",
+      "cascadesName":"SKULL",
+      "texts":[
+         "8-X"
+      ]
+   },
+   {
+      "name":"ALIEN",
+      "hex":"0xa2",
+      "screenshot":"alien",
+      "cascadesName":"ALIEN",
+      "texts":[
+         "(.V.)"
+      ]
+   },
+   {
+      "name":"JESTER",
+      "hex":"0xa3",
+      "screenshot":"jester",
+      "cascadesName":"JESTER",
+      "texts":[
+         "X:O)",
+         "X=O)"
+      ]
+   },
+   {
+      "name":"MONKEY",
+      "hex":"0xa4",
+      "screenshot":"monkey",
+      "cascadesName":"MONKEY",
+      "texts":[
+         ":(|)",
+         "=(|)"
+      ]
+   },
+   {
+      "name":"BOOM BOX",
+      "hex":"0xa5",
+      "screenshot":"boom_box",
+      "cascadesName":"BOOM_BOX",
+      "texts":[
+         "[oo]"
+      ]
+   },
+   {
+      "name":"POO",
+      "hex":"0xa6",
+      "screenshot":"poo",
+      "cascadesName":"POO",
+      "texts":[
+         "~:-|",
+         "~=-|"
+      ]
+   },
+   {
+      "name":"CHEF",
+      "hex":"0xa7",
+      "screenshot":"chef",
+      "cascadesName":"CHEF",
+      "texts":[
+         "C=:-)",
+         "C==-)"
+      ]
+   },
+   {
+      "name":"BUG",
+      "hex":"0xa8",
+      "screenshot":"chef",
+      "cascadesName":"CHEF",
+      "texts":[
+         "*bug*",
+         "*BUG*",
+         "*Bug*"
+      ]
+   },
+   {
+      "name":"COWBOY",
+      "hex":"0xa9",
+      "screenshot":"cowboy",
+      "cascadesName":"COWBOY",
+      "texts":[
+         "<):)",
+         "<)=)"
+      ]
+   },
+   {
+      "name":"STUFFING FACE",
+      "hex":"0xaa",
+      "screenshot":"stuffing_face",
+      "cascadesName":"STUFFING_FACE",
+      "texts":[
+         "*nomnom*",
+         "*NOMNOM*",
+         "*Nomnom*"
+      ]
+   },
+   {
+      "name":"BRRRR",
+      "hex":"0xab",
+      "screenshot":"brrrr",
+      "cascadesName":"BRRRR",
+      "texts":[
+         "*brrrr*",
+         "*BRRRR*",
+         "*Brrrr*"
+      ]
+   },
+   {
+      "name":"LOVE STRUCK",
+      "hex":"0xac",
+      "screenshot":"love_struck",
+      "cascadesName":"LOVE_STRUCK",
+      "texts":[
+         "(<B.<B)"
+      ]
+   },
+   {
+      "name":"STUDYING",
+      "hex":"0xad",
+      "screenshot":"studying",
+      "cascadesName":"STUDYING",
+      "texts":[
+         "*study*",
+         "*STUDY*",
+         "*Study*"
+      ]
+   },
+   {
+      "name":"SERIOUS HUG",
+      "hex":"0xae",
+      "screenshot":"serious_hug",
+      "cascadesName":"SERIOUS_HUG",
+      "texts":[
+         ">:|<",
+         ">=|<"
+      ]
+   },
+   {
+      "name":"BOY",
+      "hex":"0xaf",
+      "screenshot":"boy",
+      "cascadesName":"BOY",
+      "texts":[
+         "*XY*",
+         "*xy*",
+         "*Xy*"
+      ]
+   },
+   {
+      "name":"GIRL",
+      "hex":"0xb0",
+      "screenshot":"girl",
+      "cascadesName":"GIRL",
+      "texts":[
+         "*XX*",
+         "*xx*",
+         "*Xx*"
+      ]
+   },
+   {
+      "name":"WHISPERING",
+      "hex":"0xb1",
+      "screenshot":"whispering",
+      "cascadesName":"WHISPERING",
+      "texts":[
+         "*shhh*",
+         "*SHHH*",
+         "*Shhh*"
+      ]
+   },
+   {
+      "name":"NAIL BITING",
+      "hex":"0xb2",
+      "screenshot":"nail_biting",
+      "cascadesName":"NAIL_BITING",
+      "texts":[
+         ":-SS",
+         "=-SS"
+      ]
+   },
+   {
+      "name":"I GIVE UP",
+      "hex":"0xb3",
+      "screenshot":"i_give_up",
+      "cascadesName":"I_GIVE_UP",
+      "texts":[
+         "^(._.)^"
+      ]
+   },
+   {
+      "name":"TEAR-SMILE",
+      "hex":"0xb4",
+      "screenshot":"tear-smile",
+      "cascadesName":"TEAR-SMILE",
+      "texts":[
+         ":')",
+         "=')"
+      ]
+   },
+   {
+      "name":"ARMS CROSSED",
+      "hex":"0xb5",
+      "screenshot":"arms_crossed",
+      "cascadesName":"ARMS_CROSSED",
+      "texts":[
+         "[-("
+      ]
+   },
+   {
+      "name":"BARING YOUR TEETH",
+      "hex":"0xb6",
+      "screenshot":"bring_your_teeth",
+      "cascadesName":"BRING_YOUR_TEETH",
+      "texts":[
+         "X(#)"
+      ]
+   },
+   {
+      "name":"JAW DROPPING",
+      "hex":"0xb7",
+      "screenshot":"jaw_dopping",
+      "cascadesName":"JAW_DOPPING",
+      "texts":[
+         ":(O)",
+         "=(O)"
+      ]
+   },
+   {
+      "name":"FIST BUMP",
+      "hex":"0xb8",
+      "screenshot":"fist_bump",
+      "cascadesName":"FIST_BUMP",
+      "texts":[
+         "*fistbump*",
+         "*FISTBUMP*",
+         "*Fistbump*"
+      ]
+   },
+   {
+      "name":"CAR",
+      "hex":"0xba",
+      "screenshot":"car",
+      "cascadesName":"CAR",
+      "texts":[
+         "*car*",
+         "*CAR*",
+         "*Car*"
+      ]
+   },
+   {
+      "name":"TRUCK",
+      "hex":"0xbb",
+      "screenshot":"truck",
+      "cascadesName":"TRUCK",
+      "texts":[
+         "*truck*",
+         "*TRUCK*",
+         "*Truck*"
+      ]
+   },
+   {
+      "name":"TRAIN",
+      "hex":"0xbc",
+      "screenshot":"train",
+      "cascadesName":"TRAIN",
+      "texts":[
+         "*train*",
+         "*TRAIN*",
+         "*Train*"
+      ]
+   },
+   {
+      "name":"FOOTBALL",
+      "hex":"0xbd",
+      "screenshot":"football",
+      "cascadesName":"FOOTBALL",
+      "texts":[
+         "*football*",
+         "*FOOTBALL*",
+         "*Football*"
+      ]
+   },
+   {
+      "name":"BASKETBALL",
+      "hex":"0xbe",
+      "screenshot":"basketball",
+      "cascadesName":"BASKETBALL",
+      "texts":[
+         "*basketball*",
+         "*BASKETBALL*",
+         "*Basketball*"
+      ]
+   },
+   {
+      "name":"SOCCER",
+      "hex":"0xbf",
+      "screenshot":"soccer",
+      "cascadesName":"SOCCER",
+      "texts":[
+         "*soccer*",
+         "*SOCCER*",
+         "*Soccer*"
+      ]
+   },
+   {
+      "name":"HOCKEY",
+      "hex":"0xc0",
+      "screenshot":"hockey",
+      "cascadesName":"HOCKEY",
+      "texts":[
+         "*hockey*",
+         "*HOCKEY*",
+         "*Hockey*"
+      ]
+   },
+   {
+      "name":"GHOST",
+      "hex":"0xc1",
+      "screenshot":"ghost",
+      "cascadesName":"GHOST",
+      "texts":[
+         "*ghost*",
+         "*GHOST*",
+         "*Ghost*"
+      ]
+   },
+   {
+      "name":"TROLL",
+      "hex":"0xc2",
+      "screenshot":"troll",
+      "cascadesName":"TROLL",
+      "texts":[
+         "*troll*",
+         "*TROLL*",
+         "*Troll*"
+      ]
+   },
+   {
+      "name":"CYCLOPS",
+      "hex":"0xc3",
+      "screenshot":"cyclops",
+      "cascadesName":"CYCLOPS",
+      "texts":[
+         "*cyclops*",
+         "*CYCLOPS*",
+         "*Cyclops*"		  
+	 ]
+   }
 ]

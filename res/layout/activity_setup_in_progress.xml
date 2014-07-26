@@ -5,7 +5,7 @@
     <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:indeterminateOnly="true" style="?android:attr/progressBarStyleLarge" />
     <TextView android:textColor="@color/setup_foreground" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/setup_setting_up_bbm" />
     <TextView android:textColor="@color/setup_foreground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/blank" />
-    <TextView android:textColor="@color/setup_foreground_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/blank" />
+    <TextView android:textColor="@color/biru" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/blank" />
     <TextView android:id="@id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" />
     <include layout="@layout/setup_report_problem" />
 </LinearLayout>

@@ -7,11 +7,11 @@
     <dimen name="default_gap">16.0dip</dimen>
     <dimen name="abc_config_prefDialogWidth">320.0dip</dimen>
     <dimen name="abc_action_bar_stacked_tab_max_width">180.0dip</dimen>
-    <dimen name="abc_action_bar_default_height">48.0dip</dimen>
+    <dimen name="abc_action_bar_default_height">55.0dip</dimen>
     <dimen name="abc_action_bar_icon_vertical_padding">8.0dip</dimen>
     <dimen name="abc_action_bar_title_text_size">18.0dip</dimen>
     <dimen name="abc_action_bar_subtitle_text_size">14.0dip</dimen>
-    <dimen name="abc_action_bar_subtitle_top_margin">-3.0dip</dimen>
+    <dimen name="abc_action_bar_subtitle_top_margin">3.0dip</dimen>
     <dimen name="abc_action_bar_subtitle_bottom_margin">5.0dip</dimen>
     <dimen name="abc_action_button_min_width">56.0dip</dimen>
     <dimen name="abc_action_bar_stacked_max_height">48.0dip</dimen>
@@ -46,7 +46,7 @@
     <dimen name="bottom_actionbar_vertical_padding">5.0dip</dimen>
     <dimen name="broadcast_horizontal_grid_spacing">10.0dip</dimen>
     <dimen name="broadcast_vertical_grid_spacing">5.0dip</dimen>
-    <dimen name="actionbar_height">64.0dip</dimen>
+    <dimen name="actionbar_height">50.0dip</dimen>
     <dimen name="actionbar_minimal_height">50.0dip</dimen>
     <dimen name="actionbar_up_paddingLeft">10.0dip</dimen>
     <dimen name="actionbar_up_paddingRight">10.0dip</dimen>
@@ -79,7 +79,7 @@
     <dimen name="updates_fragment_root_message_content_margin_top">4.0dip</dimen>
     <dimen name="updates_fragment_message_text_size">14.0sp</dimen>
     <dimen name="updates_fragment_timestamp_text_size">12.0sp</dimen>
-    <dimen name="conversation_chat_bubble_context_avatar_size">70.0dip</dimen>
+    <dimen name="conversation_chat_bubble_context_avatar_size">50.0dip</dimen>
     <dimen name="conversation_chat_bubble_avatar_size">40.0dip</dimen>
     <dimen name="conversation_chat_bubble_date_padding">10.0dip</dimen>
     <dimen name="conversation_chat_bubble_minimum_height">56.0dip</dimen>
@@ -136,7 +136,7 @@
     <dimen name="list_dialog_icon_margin_right">10.0dip</dimen>
     <dimen name="list_dialog_item_height">50.0dip</dimen>
     <dimen name="list_dialog_item_text_size">18.0sp</dimen>
-    <dimen name="main_tab_bar_height">62.5dip</dimen>
+    <dimen name="main_tab_bar_height">55.0dip</dimen>
     <dimen name="main_tab_bar_badge_size">15.0dip</dimen>
     <dimen name="main_tab_bar_chat_badge_offset">-7.0dip</dimen>
     <dimen name="main_tab_bar_label_margin_bottom">8.0dip</dimen>
@@ -266,7 +266,7 @@
     <dimen name="segmented_control_options_right_padding_top">5.0dip</dimen>
     <dimen name="segmented_control_options_right_padding_right">2.0dip</dimen>
     <dimen name="segmented_control_options_right_padding_bottom">5.0dip</dimen>
-    <dimen name="avatar_size">55.0dip</dimen>
+    <dimen name="avatar_size">48.0dip</dimen>
     <dimen name="fontSizeXSmall">12.0sp</dimen>
     <dimen name="fontSizeSmall">14.0sp</dimen>
     <dimen name="fontSizeMediumLess">15.0sp</dimen>
@@ -530,4 +530,6 @@
     <dimen name="setup_button_height">48.0dip</dimen>
     <dimen name="toast_divider_width">1.0dip</dimen>
     <dimen name="toast_divider_margin">2.0dip</dimen>
+    <dimen name="fontBBMMetro">35.0sp</dimen>
+    <dimen name="top_main_action_bar_show_busy_margin_top">14.0dip</dimen>
 </resources>

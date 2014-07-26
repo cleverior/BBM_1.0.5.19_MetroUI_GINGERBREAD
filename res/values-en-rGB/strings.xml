@@ -13,7 +13,7 @@
     <string name="abc_activity_chooser_view_see_all">See all</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_shareactionprovider_share_with">Share with</string>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">Applications</string>
     <string name="bookmark_picker_name">Bookmarks</string>
     <string name="button_add_calendar">Add to calendar</string>
@@ -178,7 +178,7 @@
     <string name="main_mood_status_format">%1$s - %2$s</string>
     <string name="main_status_busy">Busy</string>
     <string name="main_status_available">Available</string>
-    <string name="invite_bbm_invites">BBM Invites</string>
+    <string name="invite_bbm_invites">BBM MetroUI Invites</string>
     <string name="invite_group_invites">Group Invites</string>
     <string name="invite_group_notification">New BBM Group invite</string>
     <string name="invite_to_bbm">Invite to BBM</string>
@@ -886,7 +886,7 @@ BBM"</string>
     <string name="a_newer_version_of_bbm_is_required">A newer version of BBM is required.</string>
     <string name="download">Download</string>
     <string name="do_you_want_to_switch_your_bbm_information_to_your_current_device">Do you want to switch your BBM information to your current device?</string>
-    <string name="switch_bbm">Switch BBM</string>
+    <string name="switch_bbm">Switch BBM MetroUI</string>
     <string name="you_are_signed_in_with_the_following_blackberry_id">You are signed in with the following BlackBerry ID: %1$s</string>
     <string name="if_youre_an_existing_bbm_user_you_can_restore_bbm">"If you're an existing BBM user, you can restore BBM. If you're new to BBM, continue to get started."</string>
     <string name="learn_more_about_restoring_bbm_data">Learn more about restoring BBM data.</string>
@@ -895,9 +895,9 @@ BBM"</string>
     <string name="button_continue">Continue</string>
     <string name="button_continue_to_bbm">Continue to BBM</string>
     <string name="button_skip">Skip</string>
-    <string name="bbm_setup">BBM Setup</string>
-    <string name="bbm_service_running">Connected</string>
-    <string name="bbm_service_no_connectivity">No connectivity</string>
+    <string name="bbm_setup">Setup BBM MetroUI</string>
+    <string name="bbm_service_running">BBM MetroUI Connected</string>
+    <string name="bbm_service_no_connectivity">BBM MetroUI No Connectivity</string>
     <string name="notification_stacked_message_ticker_title">%1$d new messages</string>
     <string name="notification_message_ticker_format">%1$s: %2$s</string>
     <string name="notification_invite_ticker_format">%1$s: %2$s</string>

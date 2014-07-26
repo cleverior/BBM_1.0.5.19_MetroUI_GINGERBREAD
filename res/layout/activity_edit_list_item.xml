@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+<RelativeLayout android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:custom="http://schemas.android.com/apk/res/com.bbm">
     <com.bbm.ui.VerticallScrollView android:id="@id/settings_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer_action_bar" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
@@ -11,8 +11,8 @@
             <org.jraf.android.backport.switchwidget.Switch android:id="@id/list_item_due_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_add_item_margin_top" android:text="@string/group_add_list_item_due_date" style="@style/Common.Switch" />
             <com.bbm.ui.DateTimePickerView android:id="@id/list_item_due_date" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:dateLabel="@string/group_add_list_item_due" custom:type="dateOnly" />
             <Spinner android:id="@id/list_item_priority_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_add_item_margin_top" style="@style/CascadesSpinner" />
-            <com.bbm.ui.InlineImageTextView android:textSize="@dimen/fontSizeSmall" android:textColor="@color/black" android:gravity="left" android:id="@id/list_item_last_edited_by" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_add_item_margin_top" />
-            <com.bbm.ui.InlineImageTextView android:textSize="@dimen/fontSizeSmall" android:textColor="@color/black" android:gravity="left" android:id="@id/list_item_added_by" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/list_add_item_margin_top" />
+            <com.bbm.ui.InlineImageTextView android:textSize="@dimen/fontSizeSmall" android:textColor="@color/biru" android:gravity="left" android:id="@id/list_item_last_edited_by" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_add_item_margin_top" />
+            <com.bbm.ui.InlineImageTextView android:textSize="@dimen/fontSizeSmall" android:textColor="@color/biru" android:gravity="left" android:id="@id/list_item_added_by" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/list_add_item_margin_top" />
         </LinearLayout>
     </com.bbm.ui.VerticallScrollView>
     <include layout="@layout/view_merge_footer_actionbar_dropshadow" />

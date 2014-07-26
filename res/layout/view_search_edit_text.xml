@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/contacts_search_area_height"
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/abugelap" android:layout_width="fill_parent" android:layout_height="@dimen/contacts_search_area_height"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/view_search_edit_text_margin" android:layout_marginTop="@dimen/view_search_edit_text_margin" android:layout_marginRight="@dimen/view_search_edit_text_margin" android:layout_marginBottom="@dimen/view_search_edit_text_margin" android:layout_weight="1.0">
         <EditText android:id="@id/search_contacts" android:nextFocusLeft="@id/contacts_nonempty_layout" android:nextFocusRight="@id/contacts_nonempty_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/search" android:inputType="textPersonName" android:imeOptions="actionDone" style="@style/BB10Edit" />

@@ -450,8 +450,6 @@
 
     invoke-direct {v1, p0}, Lcom/bbm/ui/activities/ie;-><init>(Lcom/bbm/ui/activities/GroupListsCommentActivity;)V
 
-    invoke-virtual {v0, v1}, Lcom/bbm/ui/SendEditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
-
     const v0, 0x7f0b00bf
 
     invoke-virtual {p0, v0}, Lcom/bbm/ui/activities/GroupListsCommentActivity;->findViewById(I)Landroid/view/View;

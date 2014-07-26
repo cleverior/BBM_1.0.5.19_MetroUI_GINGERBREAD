@@ -13,7 +13,7 @@
     <string name="abc_activity_chooser_view_see_all">Показать все</string>
     <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
     <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
-    <string name="app_name">BBM</string>
+    <string name="app_name">BBM MetroUI</string>
     <string name="app_picker_name">Программы</string>
     <string name="bookmark_picker_name">Закладки</string>
     <string name="button_add_calendar">Добавить в календарь</string>

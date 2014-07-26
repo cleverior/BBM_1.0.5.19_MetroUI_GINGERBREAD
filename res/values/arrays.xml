@@ -66,7 +66,6 @@
         <item>@drawable/emoticon_0x0e</item>
         <item>@drawable/emoticon_0x0f</item>
         <item>@drawable/emoticon_0x10</item>
-        <item>@drawable/emoticon_0x11</item>
         <item>@drawable/emoticon_0x12</item>
         <item>@drawable/emoticon_0x13</item>
         <item>@drawable/emoticon_0x14</item>
@@ -115,7 +114,6 @@
         <item>@drawable/emoticon_0x44</item>
         <item>@drawable/emoticon_0x45</item>
         <item>@drawable/emoticon_0x46</item>
-        <item>@drawable/emoticon_0x47</item>
         <item>@drawable/emoticon_0x48</item>
         <item>@drawable/emoticon_0x4c</item>
         <item>@drawable/emoticon_0x4d</item>
@@ -125,6 +123,108 @@
         <item>@drawable/emoticon_0x55</item>
         <item>@drawable/emoticon_0x58</item>
         <item>@drawable/emoticon_0x5b</item>
+        <item>@drawable/emoticon_0x5c</item>
+        <item>@drawable/emoticon_0x5d</item>
+        <item>@drawable/emoticon_0x5e</item>
+        <item>@drawable/emoticon_0x5f</item>
+        <item>@drawable/emoticon_0x60</item>
+        <item>@drawable/emoticon_0x61</item>
+        <item>@drawable/emoticon_0x62</item>
+        <item>@drawable/emoticon_0x63</item>
+        <item>@drawable/emoticon_0x64</item>
+        <item>@drawable/emoticon_0x65</item>
+        <item>@drawable/emoticon_0x66</item>
+        <item>@drawable/emoticon_0x67</item>
+        <item>@drawable/emoticon_0x68</item>
+        <item>@drawable/emoticon_0x69</item>
+        <item>@drawable/emoticon_0x6b</item>
+        <item>@drawable/emoticon_0x6c</item>
+        <item>@drawable/emoticon_0x6d</item>
+        <item>@drawable/emoticon_0x6e</item>
+        <item>@drawable/emoticon_0x6f</item>
+        <item>@drawable/emoticon_0x70</item>
+        <item>@drawable/emoticon_0x71</item>
+        <item>@drawable/emoticon_0x72</item>
+        <item>@drawable/emoticon_0x73</item>
+        <item>@drawable/emoticon_0x74</item>
+        <item>@drawable/emoticon_0x75</item>
+        <item>@drawable/emoticon_0x76</item>
+        <item>@drawable/emoticon_0x77</item>
+        <item>@drawable/emoticon_0x78</item>
+        <item>@drawable/emoticon_0x79</item>
+        <item>@drawable/emoticon_0x7a</item>
+        <item>@drawable/emoticon_0x7b</item>
+        <item>@drawable/emoticon_0x7c</item>
+        <item>@drawable/emoticon_0x7d</item>
+        <item>@drawable/emoticon_0x7e</item>
+        <item>@drawable/emoticon_0x7f</item>
+        <item>@drawable/emoticon_0x80</item>
+        <item>@drawable/emoticon_0x81</item>
+        <item>@drawable/emoticon_0x82</item>
+        <item>@drawable/emoticon_0x83</item>
+        <item>@drawable/emoticon_0x84</item>
+        <item>@drawable/emoticon_0x85</item>
+        <item>@drawable/emoticon_0x86</item>
+        <item>@drawable/emoticon_0x87</item>
+        <item>@drawable/emoticon_0x88</item>
+        <item>@drawable/emoticon_0x89</item>
+        <item>@drawable/emoticon_0x8a</item>
+        <item>@drawable/emoticon_0x8b</item>
+        <item>@drawable/emoticon_0x8c</item>
+        <item>@drawable/emoticon_0x8d</item>
+        <item>@drawable/emoticon_0x8e</item>
+        <item>@drawable/emoticon_0x8f</item>
+        <item>@drawable/emoticon_0x90</item>
+        <item>@drawable/emoticon_0x91</item>
+        <item>@drawable/emoticon_0x92</item>
+        <item>@drawable/emoticon_0x93</item>
+        <item>@drawable/emoticon_0x94</item>
+        <item>@drawable/emoticon_0x95</item>
+        <item>@drawable/emoticon_0x96</item>
+        <item>@drawable/emoticon_0x97</item>
+        <item>@drawable/emoticon_0x98</item>
+        <item>@drawable/emoticon_0x99</item>
+        <item>@drawable/emoticon_0x9a</item>
+        <item>@drawable/emoticon_0x9b</item>
+        <item>@drawable/emoticon_0x9c</item>
+        <item>@drawable/emoticon_0x9d</item>
+        <item>@drawable/emoticon_0x9e</item>
+        <item>@drawable/emoticon_0x9f</item>
+        <item>@drawable/emoticon_0xa0</item>
+        <item>@drawable/emoticon_0xa1</item>
+        <item>@drawable/emoticon_0xa2</item>
+        <item>@drawable/emoticon_0xa3</item>
+        <item>@drawable/emoticon_0xa4</item>
+        <item>@drawable/emoticon_0xa5</item>
+        <item>@drawable/emoticon_0xa6</item>
+        <item>@drawable/emoticon_0xa7</item>
+        <item>@drawable/emoticon_0xa8</item>
+        <item>@drawable/emoticon_0xa9</item>
+        <item>@drawable/emoticon_0xaa</item>
+        <item>@drawable/emoticon_0xab</item>
+        <item>@drawable/emoticon_0xac</item>
+        <item>@drawable/emoticon_0xad</item>
+        <item>@drawable/emoticon_0xae</item>
+        <item>@drawable/emoticon_0xaf</item>
+        <item>@drawable/emoticon_0xb0</item>
+        <item>@drawable/emoticon_0xb1</item>
+        <item>@drawable/emoticon_0xb2</item>
+        <item>@drawable/emoticon_0xb3</item>
+        <item>@drawable/emoticon_0xb4</item>
+        <item>@drawable/emoticon_0xb5</item>
+        <item>@drawable/emoticon_0xb6</item>
+        <item>@drawable/emoticon_0xb7</item>
+        <item>@drawable/emoticon_0xb8</item>
+        <item>@drawable/emoticon_0xba</item>
+        <item>@drawable/emoticon_0xbb</item>
+        <item>@drawable/emoticon_0xbc</item>
+        <item>@drawable/emoticon_0xbd</item>
+        <item>@drawable/emoticon_0xbe</item>
+        <item>@drawable/emoticon_0xbf</item>
+        <item>@drawable/emoticon_0xc0</item>
+        <item>@drawable/emoticon_0xc1</item>
+        <item>@drawable/emoticon_0xc2</item>
+        <item>@drawable/emoticon_0xc3</item>
     </array>
     <string-array name="emoticon_keys">
         <item>:)</item>
@@ -137,13 +237,12 @@
         <item>*party*</item>
         <item>:P</item>
         <item>;;)</item>
-        <item>&amp;lt;3&amp;lt;3</item>
+        <item>&amp;amp;amp;lt;3&amp;amp;amp;lt;3</item>
         <item>:*</item>
         <item>:|</item>
         <item>/:)</item>
         <item>:></item>
         <item>3-|</item>
-        <item>:]X</item>
         <item>>:/</item>
         <item>*eyesrolling*</item>
         <item>:]Y</item>
@@ -182,8 +281,8 @@
         <item>*waiting*</item>
         <item>(y)</item>
         <item>(n)</item>
-        <item>&amp;lt;3</item>
-        <item>&amp;lt;/3</item>
+        <item>&amp;amp;amp;lt;3</item>
+        <item>&amp;amp;amp;lt;/3</item>
         <item>|:o|</item>
         <item>\\m/</item>
         <item>|-)</item>
@@ -192,7 +291,6 @@
         <item>:g</item>
         <item>x-o</item>
         <item>~:-)</item>
-        <item>;-SHH</item>
         <item>:e></item>
         <item>*snow*</item>
         <item>*sun*</item>
@@ -202,6 +300,108 @@
         <item>*idea*</item>
         <item>*run*</item>
         <item>*blank*</item>
+        <item>*moon*</item>
+        <item>*rainbow*</item>
+        <item>(yn)</item>
+        <item>*fist*</item>
+        <item>:+(</item>
+        <item>:-V</item>
+        <item>**-)</item>
+        <item>%-\\</item>
+        <item>^5</item>
+        <item>*tear*</item>
+        <item>|-O</item>
+        <item>$_$</item>
+        <item>*yuck*</item>
+        <item>O.o</item>
+        <item>X-p</item>
+        <item>:-E</item>
+        <item>8-#</item>
+        <item>:-J</item>
+        <item>:^&amp;amp;amp;amp;</item>
+        <item>:^></item>
+        <item>*y*</item>
+        <item>*n*</item>
+        <item>\\VVV/</item>
+        <item>\\%%%/</item>
+        <item>p(-_-)</item>
+        <item>p(-_-)q</item>
+        <item>:-w</item>
+        <item>c\\_/</item>
+        <item>|-C</item>
+        <item>*-:)</item>
+        <item>:^-?</item>
+        <item>=;(</item>
+        <item>Y_Y</item>
+        <item>(|oo|)</item>
+        <item>8-t</item>
+        <item>*eating*</item>
+        <item>*boxing*</item>
+        <item>\\../</item>
+        <item>*zzzzz*</item>
+        <item>X-&amp;amp;amp;amp;</item>
+        <item>X-G</item>
+        <item>:-\"</item>
+        <item>[:]</item>
+        <item>:-})</item>
+        <item>*noooo*</item>
+        <item>;^L</item>
+        <item>(&amp;amp;amp;amp;_&amp;amp;amp;amp;)</item>
+        <item>*ninja*</item>
+        <item>*flex*</item>
+        <item>*ROTFL*</item>
+        <item>8^{)</item>
+        <item>(0.0)</item>
+        <item>%(..)%</item>
+        <item>&amp;amp;amp;lt;>&amp;amp;amp;lt;</item>
+        <item>:o3</item>
+        <item>=^.^=</item>
+        <item>(*v*)</item>
+        <item>>:oB</item>
+        <item>//_^</item>
+        <item>~:0</item>
+        <item>*old*</item>
+        <item>[>O</item>
+        <item>\@@>~~</item>
+        <item>~~:[</item>
+        <item>*&amp;amp;amp;lt;:o)</item>
+        <item>*tornado*</item>
+        <item>*gifts*</item>
+        <item>:-)&amp;amp;amp;lt;</item>
+        <item>8-X</item>
+        <item>(.V.)</item>
+        <item>X:O)</item>
+        <item>:(|)</item>
+        <item>[oo]</item>
+        <item>~:-|</item>
+        <item>C=:-)</item>
+        <item>*bug*</item>
+        <item>&amp;amp;amp;lt;):)</item>
+        <item>*nomnom*</item>
+        <item>*brrrr*</item>
+        <item>(&amp;amp;amp;lt;B.&amp;amp;amp;lt;B)</item>
+        <item>*study*</item>
+        <item>>:|&amp;amp;amp;lt;</item>
+        <item>*XY*</item>
+        <item>*XX*</item>
+        <item>*shhh*</item>
+        <item>:-SS</item>
+        <item>^(._.)^</item>
+        <item>":')"</item>
+        <item>[-(</item>
+        <item>X(#)</item>
+        <item>:(O)</item>
+        <item>*fistbump*</item>
+        <item>*car*</item>
+        <item>*truck*</item>
+        <item>*train*</item>
+        <item>*football*</item>
+        <item>*basketball*</item>
+        <item>*soccer*</item>
+        <item>*hockey*</item>
+        <item>*ghost*</item>
+        <item>*troll*</item>
+        <item>*cyclops*</item>
     </string-array>
     <array name="flag_drawables">
         <item>@drawable/flag_eng</item>
@@ -504,10 +704,12 @@
         <item>Open Source Licenses</item>
         <item>Privacy Policy</item>
         <item>Terms of Service</item>
+        <item>Find Me On Twitter</item>
     </string-array>
     <string-array name="legal_option_list_url">
         <item>http://www.blackberry.com/bbmthirdparty</item>
         <item>http://www.blackberry.com/legal/privacy</item>
         <item>http://www.blackberry.com/legal/bbm-tos</item>
+        <item>http://www.twitter.com/beniCC20308</item>
     </string-array>
 </resources>
