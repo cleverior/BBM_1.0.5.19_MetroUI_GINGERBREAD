@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_view_content_height">
+        <TextView android:textColor="@*android:color/black" android:gravity="center_vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/list_header_view_horizontal_margin" android:text="@string/contacts" style="@style/ContactsHeaderFont" />
+        <TextView android:textColor="@*android:color/black" android:gravity="right|center" android:id="@id/count" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/list_header_view_horizontal_margin" android:text="@string/contacts_count" style="@style/ContactsCountFont" />
+    </LinearLayout>
+    <ImageView android:id="@id/blueDividingLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_header_blue_divider" android:scaleType="fitXY" android:contentDescription="@string/blank" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Нет</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Изображение</item>
+        <item>Загрузить</item>
+        <item>Музыка</item>
+        <item>Видео</item>
+        <item>Другое</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Имя</item>
+        <item>Дата</item>
+        <item>@string/file_picker_type</item>
+        <item>Размер</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>По возрастанию</item>
+        <item>По убыванию</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Срок выполнения</item>
+        <item>Приоритет</item>
+        <item>Категория</item>
+        <item>Назначено</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Обновить описание группы</item>
+        <item>Назначить администратором другого пользователя</item>
+        <item>Не позволять участникам приглашать других пользователей</item>
+        <item>Удалять чаты и изображения</item>
+        <item>Изменить сведения об изображении</item>
+        <item>Удалить группу (и все связанные с ней данные)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Нет</item>
+        <item>День рождения</item>
+        <item>Домашнее животное</item>
+        <item>Школа</item>
+        <item>Город</item>
+        <item>По выбору</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>В каком месяце у меня день рождения?</item>
+        <item>Какое у меня домашнее животное?</item>
+        <item>Как называлась моя начальная школа?</item>
+        <item>В каком городе я сейчас живу?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Сетка</item>
+        <item>Список</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Лицензии</item>
+        <item>Политика конфиденциальности</item>
+        <item>Условия обслуживания</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

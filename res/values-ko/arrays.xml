@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>없음</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>사진</item>
+        <item>다운로드</item>
+        <item>음악</item>
+        <item>비디오</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>이름</item>
+        <item>날짜</item>
+        <item>@string/file_picker_type</item>
+        <item>크기</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>오름차순</item>
+        <item>내림차순</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>기한</item>
+        <item>우선 순위</item>
+        <item>카테고리</item>
+        <item>지정 대상</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>그룹 설명 업데이트</item>
+        <item>다른 사용자를 관리자로 설정</item>
+        <item>구성원이 다른 사람을 초대하지 못하도록 금지</item>
+        <item>채팅 및 사진 삭제</item>
+        <item>사진 세부 정보 변경</item>
+        <item>그룹(및 모든 데이터) 삭제</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>없음</item>
+        <item>생일</item>
+        <item>애완동물</item>
+        <item>학교</item>
+        <item>도시</item>
+        <item>사용자 지정</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>내가 태어난 달은?</item>
+        <item>내가 기르는 애완동물 종류는?</item>
+        <item>내가 다닌 초등학교 이름은?</item>
+        <item>내가 현재 살고 있는 도시 이름은?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>그리드</item>
+        <item>목록</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>오픈 소스 라이센스</item>
+        <item>개인정보 취급방침</item>
+        <item>이용 약관</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/groupProfileRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="@dimen/group_settings_horizontal_padding" android:paddingRight="@dimen/group_settings_horizontal_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer_action_bar">
+        <TextView android:id="@id/group_settings_is_admin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_settings_margin_between_elements" android:text="@string/group_settings_is_admin_blurb" style="@style/Common.Label.Small" />
+        <TextView android:textColor="@color/blue" android:id="@id/group_settings_learnmore" android:paddingBottom="@dimen/group_settings_learn_more_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_settings_learnmore_link" android:layout_below="@id/group_settings_is_admin" style="@style/Common.Label.Small" />
+        <TextView android:id="@id/group_settings_not_admin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/group_settings_not_admin_blurb2" android:layout_below="@id/group_settings_learnmore" style="@style/Common.Label.Small" />
+        <org.jraf.android.backport.switchwidget.Switch android:id="@id/allow_members_invite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_settings_margin_between_elements" android:text="@string/group_settings_allow_invite" android:layout_below="@id/group_settings_learnmore" style="@style/Common.Label.Small" />
+        <RelativeLayout android:id="@id/admin_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_settings_margin_between_elements" android:layout_below="@id/allow_members_invite">
+            <TextView android:id="@id/admin_edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_settings_margin_between_elements" android:text="@string/group_settings_administrators" style="@style/Common.Label.Small" />
+            <Button android:textColor="@color/black" android:id="@id/admin_edit_button" android:layout_width="@dimen/group_settings_button_width" android:layout_height="wrap_content" android:text="@string/groups_settings_edit" android:layout_alignParentRight="true" style="@style/CascadesButton.Narrow" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/admin_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_settings_margin_between_elements" android:layout_below="@id/admin_edit">
+            <TextView android:id="@id/admin_password_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_settings_margin_between_elements" android:text="@string/group_settings_admin_password" style="@style/Common.Label.Small" />
+            <Button android:textColor="@color/black" android:id="@id/admin_password_button" android:layout_width="@dimen/group_settings_button_width" android:layout_height="wrap_content" android:text="@string/group_settings_create" android:layout_alignParentRight="true" style="@style/CascadesButton.Narrow" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@layout/view_merge_footer_actionbar_dropshadow" />
+</RelativeLayout>

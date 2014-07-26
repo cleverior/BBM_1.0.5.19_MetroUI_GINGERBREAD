@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/barcodeRoot" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/showbarcode_info_text_size" android:textColor="@color/showbarcode_info_text_color" android:gravity="center_horizontal" android:id="@id/barcode_group_infos" android:padding="@dimen/showbarcode_info_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/group_barcode_info" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/barcode_group_qr" android:layout_width="200.0dip" android:layout_height="200.0dip" android:scaleType="fitCenter" android:contentDescription="@string/qr_description" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

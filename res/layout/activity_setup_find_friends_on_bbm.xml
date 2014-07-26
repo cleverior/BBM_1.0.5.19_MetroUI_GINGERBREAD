@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/setup_footer" android:layout_alignParentTop="true">
+        <TextView android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setup_share_bbm_message" />
+        <ImageView android:id="@id/divider" android:background="@drawable/list_item_default_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.tonicartos.widget.stickygridheaders.StickyGridHeadersGridView android:id="@id/friendsList" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@drawable/selection_border" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:id="@id/setup_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/view_setup_footer" />
+</RelativeLayout>

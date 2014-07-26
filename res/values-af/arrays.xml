@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Geen</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Foto</item>
+        <item>Laai af</item>
+        <item>Musiek</item>
+        <item>Video</item>
+        <item>Ander</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Naam</item>
+        <item>Datum</item>
+        <item>@string/file_picker_type</item>
+        <item>Grootte</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Stygend</item>
+        <item>Dalend</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Vervaldatum</item>
+        <item>Prioriteit</item>
+        <item>Kategorie</item>
+        <item>Toegeken aan</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Werk die groepbeskrywing by</item>
+        <item>Maak iemand anders ‘n admin</item>
+        <item>Verhoed lede om ander te nooi</item>
+        <item>Skrap kletse en foto’s</item>
+        <item>Verander foto-besonderhede</item>
+        <item>Skrapdie groep (en alle data)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Geen</item>
+        <item>Verjaardag</item>
+        <item>Troeteldier</item>
+        <item>Skool</item>
+        <item>Stad</item>
+        <item>Gewoonte</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>In watter maand verjaar ek?</item>
+        <item>Watter tipe troeteldier het ek?</item>
+        <item>Watter laerskool het ek bygewoon?</item>
+        <item>In watter stad woon ek tans?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Rooster</item>
+        <item>Lys</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Oopbron-lisensies</item>
+        <item>Privaatheidsbeleid</item>
+        <item>Terme en Voorwaardes</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">%1$s Item</item>
+        <item quantity="zero">0 Item</item>
+        <item quantity="one">1 Item</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">%1$s Sembang Aktif</item>
+        <item quantity="one">1 Sembang Aktif</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">%1$s Kenalan</item>
+        <item quantity="one">1 Kenalan</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">%1$s Kumpulan</item>
+        <item quantity="one">1 Kumpulan</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">%1$s Kemas Kini Baru</item>
+        <item quantity="one">1 Kemas Kini Baru</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">%1$s Jemputan Baru</item>
+        <item quantity="one">1 Jemputan Baru</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">Mesej Siaran dihantar kepada %1$s kenalan</item>
+        <item quantity="one">Mesej Siaran dihantar kepada 1 kenalan</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(%1$d jemputan sedang menunggu)</item>
+        <item quantity="one">(1 jemputan menunggu)</item>
+    </plurals>
+</resources>

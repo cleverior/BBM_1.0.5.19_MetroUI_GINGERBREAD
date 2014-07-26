@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Ingen</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Bilde</item>
+        <item>Last ned</item>
+        <item>Musikk</item>
+        <item>Video</item>
+        <item>Annet</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Navn</item>
+        <item>Dato</item>
+        <item>@string/file_picker_type</item>
+        <item>Størrelse</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Stigende</item>
+        <item>Synkende</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Forfallsdato</item>
+        <item>Prioritet</item>
+        <item>Kategori</item>
+        <item>Tilordnet til</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Oppdater gruppebeskrivelsen</item>
+        <item>Gjør en annen til administrator</item>
+        <item>Hindre at medlemmer inviterer andre</item>
+        <item>Slett nettprat og bilder</item>
+        <item>Endre bildedetaljer</item>
+        <item>Slett gruppen (og alle data)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Ingen</item>
+        <item>Bursdag</item>
+        <item>Kjæledyr</item>
+        <item>Skole</item>
+        <item>By</item>
+        <item>Egendefinert</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Hvilken måned har jeg bursdag?</item>
+        <item>Hvilken type kjæledyr har jeg?</item>
+        <item>Hvilken grunnskole gikk jeg på?</item>
+        <item>Hvilket sted bor jeg på?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Rutenett</item>
+        <item>Liste</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Lisenser for åpen kildekode</item>
+        <item>Personvernpolicy</item>
+        <item>Vilkår for bruk</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

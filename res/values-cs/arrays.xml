@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Žádná</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Obrázek</item>
+        <item>Stáhnout</item>
+        <item>Hudba</item>
+        <item>Video</item>
+        <item>Jiné</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Název</item>
+        <item>Datum</item>
+        <item>@string/file_picker_type</item>
+        <item>Velikost</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Vzestupná</item>
+        <item>Sestupná</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Termín splnění</item>
+        <item>Priorita</item>
+        <item>Kategorie</item>
+        <item>Přiřazeno uživateli</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Aktualizovat popis skupiny</item>
+        <item>Pověřit funkcí správce jiného uživatele</item>
+        <item>Zabránit členům zvát další</item>
+        <item>Odstranit chaty a obrázky</item>
+        <item>Změnit podrobnosti obrázků</item>
+        <item>Odstranit skupinu (a všechna data)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Žádná</item>
+        <item>Narozeniny</item>
+        <item>Domácí zvíře</item>
+        <item>Škola</item>
+        <item>Město</item>
+        <item>Vlastní</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Ve kterém měsíci jsem se narodil(a)?</item>
+        <item>Jaký druh domácího zvířete mám?</item>
+        <item>Jakou základní školu jsem navštěvoval(a)?</item>
+        <item>Ve kterém městě v současné době bydlím?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Mřížka</item>
+        <item>Seznam</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Licence OSS</item>
+        <item>Zásady ochrany osobních údajů</item>
+        <item>Podmínky služby</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

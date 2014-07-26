@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/setup_activity_complete_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/setup_activity_complete_profile_root" android:background="@color/setup_background" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/setup_footer">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/setup_activity_complete_profile_subroot" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.bbm.ui.ObservingAvatarImageView android:id="@id/avatar" android:focusable="true" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_margin="20.0dip" android:src="@drawable/default_avatar" android:scaleType="centerCrop" android:onClick="onClickCompleteAvatar" />
+            <com.bbm.ui.InlineImageEditText android:textSize="@dimen/profile_actionbar_name_text_size" android:id="@id/display_name" android:nextFocusLeft="@id/setup_activity_complete_profile_subroot" android:nextFocusRight="@id/setup_activity_complete_profile_subroot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:hint="@string/display_name_cannot_be_empty" android:singleLine="true" android:imeOptions="actionDone" style="@style/BB10Edit" />
+            <TextView android:textSize="@dimen/fontSizeSmall" android:textColor="@color/setup_foreground" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/your_bbm_pin_is" />
+            <TextView android:textSize="33.0sp" android:textStyle="bold" android:textColor="@color/setup_foreground" android:gravity="center_horizontal" android:id="@id/pin" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/fontSizeSmall" android:textStyle="bold" android:textColor="@color/setup_foreground_secondary" android:gravity="center_horizontal" android:id="@id/setup_complete_learnmore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="20.0dip" android:text="@string/learn_more_about_bbm_pins" />
+            <include layout="@layout/setup_report_problem" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/setup_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/view_setup_footer" />
+</RelativeLayout>

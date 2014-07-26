@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Yok</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Resim</item>
+        <item>İndir</item>
+        <item>Müzik</item>
+        <item>Video</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Ad</item>
+        <item>Tarih</item>
+        <item>@string/file_picker_type</item>
+        <item>Boyut</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Artan</item>
+        <item>Azalan</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Süre Sonu</item>
+        <item>Öncelik</item>
+        <item>Kategori</item>
+        <item>Şuna Atandı:</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Grup açıklamasını güncelleme</item>
+        <item>Başka birini yönetici yapma</item>
+        <item>Üyelerin başkalarını davet etmesini engelleme</item>
+        <item>Sohbetleri ve resimleri silme</item>
+        <item>Resim ayrıntılarını değiştirme</item>
+        <item>Grubu (ve tüm verileri) silme</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Yok</item>
+        <item>Doğum Günü</item>
+        <item>Evcil Hayvan</item>
+        <item>Okul</item>
+        <item>Şehir</item>
+        <item>Özel</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Doğum günüm hangi ayda?</item>
+        <item>Hangi evcil hayvana sahibim?</item>
+        <item>Hangi ilköğretim okuluna gittim?</item>
+        <item>Şu anda hangi şehirde yaşıyorum?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Izgara</item>
+        <item>Liste</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Açık Kaynak Lisansları</item>
+        <item>Gizlilik İlkesi</item>
+        <item>Hizmet Koşulları</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

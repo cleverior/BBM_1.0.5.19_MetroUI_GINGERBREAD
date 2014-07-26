@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Cap</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Imatge</item>
+        <item>Baixa</item>
+        <item>Música</item>
+        <item>Vídeo</item>
+        <item>Altres</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Nom</item>
+        <item>Data</item>
+        <item>@string/file_picker_type</item>
+        <item>Mida</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Ascendent</item>
+        <item>Descendent</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Data de venciment</item>
+        <item>Prioritat</item>
+        <item>Categoria</item>
+        <item>Assignats a</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Actualitza la descripció del grup</item>
+        <item>Converteix un altre usuari en administrador</item>
+        <item>Evita que els membres puguin fer invitacions</item>
+        <item>Suprimeix xats i imatges</item>
+        <item>Canvia els detalls de les imatges</item>
+        <item>Suprimeix el grup (i totes les dades)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Cap</item>
+        <item>Data de naixement</item>
+        <item>Mascota</item>
+        <item>Escola</item>
+        <item>Ciutat</item>
+        <item>Personalitzat</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Quin mes vaig néixer?</item>
+        <item>Quin tipus de mascota tinc?</item>
+        <item>A quina escola vaig estudiar primària?</item>
+        <item>A quina ciutat visc actualment?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Graella</item>
+        <item>Llista</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Llicències de codi obert</item>
+        <item>Política de privadesa</item>
+        <item>Condicions del servei</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Geen</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Afbeelding</item>
+        <item>Downloaden</item>
+        <item>Muziek</item>
+        <item>Video</item>
+        <item>Overige</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Naam</item>
+        <item>Datum</item>
+        <item>@string/file_picker_type</item>
+        <item>Grootte</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Oplopend</item>
+        <item>Aflopend</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Vervaldatum</item>
+        <item>Prioriteit</item>
+        <item>Categorie</item>
+        <item>Toegewezen aan</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Groepsomschrijving bijwerken</item>
+        <item>Iemand anders beheerder maken</item>
+        <item>Voorkomen dat leden anderen uitnodigen</item>
+        <item>Chats en afbeeldingen verwijderen</item>
+        <item>Afbeeldingsgegevens wijzigen</item>
+        <item>Groep (en alle gegevens) verwijderen</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Geen</item>
+        <item>Verjaardag</item>
+        <item>Huisdier</item>
+        <item>School</item>
+        <item>Plaats</item>
+        <item>Aangepast</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>In welke maand is mijn verjaardag?</item>
+        <item>Wat voor een huisdier heb ik?</item>
+        <item>Op welke basisschool heb ik gezeten?</item>
+        <item>In welke plaats woon ik momenteel?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Raster</item>
+        <item>Lijst</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Opensource-licenties</item>
+        <item>Privacybeleid</item>
+        <item>Servicevoorwaarden</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

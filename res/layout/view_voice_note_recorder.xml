@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/darkstyle_containerColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/darkstyle_pBoxItemTextColor" android:gravity="center" android:id="@id/labelState" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/voicerecorder_ready_to_record" />
+    <FrameLayout android:layout_gravity="top|center" android:id="@id/recorderButton" android:background="@drawable/dark_button_background" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/iconState" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/voicenote_record" android:contentDescription="@string/blank" />
+    </FrameLayout>
+    <com.bbm.ui.PlaybackProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="20.0dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/setup_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/setup_footer">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/spacer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:src="@drawable/setup_error" />
+            <TextView android:textColor="@color/setup_foreground" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/cannot_switch_bbm_to_the_current_device" />
+            <TextView android:textColor="@color/setup_foreground" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/setup_margin" android:text="@string/a_newer_version_of_bbm_is_required" />
+            <include layout="@layout/setup_report_problem" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/setup_footer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/view_setup_footer" />
+</RelativeLayout>

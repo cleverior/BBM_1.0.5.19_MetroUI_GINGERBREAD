@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">%1$s elementer</item>
+        <item quantity="zero">0 elementer</item>
+        <item quantity="one">1 element</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">%1$s aktive chat</item>
+        <item quantity="one">1 aktiv chat</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">%1$s kontakter</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">%1$s grupper</item>
+        <item quantity="one">1 gruppe</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">%1$s nye opdateringer</item>
+        <item quantity="one">1 ny opdatering</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">%1$s nye invitationer</item>
+        <item quantity="one">1 ny invitation</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">Broadcast-meddelelse sendt til %1$s kontakter</item>
+        <item quantity="one">Broadcast-meddelelse sendt til 1 kontakt</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(%1$d ventende invitationer)</item>
+        <item quantity="one">(1 ventende invitation)</item>
+    </plurals>
+</resources>

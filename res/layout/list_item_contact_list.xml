@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/list_item_default_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.bbm.ui.ObservingImageView android:id="@id/contact_avatar" android:scaleType="centerCrop" app:textSize="@dimen/fontSizeMedium" style="@style/ListItemAvatar" />
+    <com.bbm.ui.ObservingImageView android:id="@id/contact_show_busy" android:visibility="invisible" android:layout_width="@dimen/contacts_busy_icon_size" android:layout_height="@dimen/contacts_busy_icon_size" android:layout_marginTop="@dimen/contact_list_busy_icon_margin_top" android:src="@drawable/ic_busy_tiny" android:scaleType="centerCrop" android:layout_toRightOf="@id/contact_avatar" android:layout_alignParentTop="true" android:contentDescription="@string/blank" />
+    <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/contact_list_item_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/contact_show_busy" android:layout_centerVertical="true">
+        <com.bbm.ui.InlineImageTextView android:id="@id/contact_name" style="@style/ListItemTitleField" />
+        <com.bbm.ui.InlineImageTextView android:id="@id/contact_message" style="@style/ListItemSubtitleField" />
+    </LinearLayout>
+    <ImageView android:id="@id/divider" android:background="@drawable/list_item_default_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_list_item_divider_margin_top" android:layout_below="@id/contact_avatar" android:layout_alignParentBottom="true" />
+</RelativeLayout>

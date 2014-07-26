@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>ללא</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>תמונה</item>
+        <item>הורד</item>
+        <item>מוסיקה</item>
+        <item>וידאו</item>
+        <item>אחר</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>שם</item>
+        <item>תאריך</item>
+        <item>@string/file_picker_type</item>
+        <item>גודל</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>סדר עולה</item>
+        <item>סדר יורד</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>תאריך יעד</item>
+        <item>עדיפות</item>
+        <item>קטגוריה</item>
+        <item>הוקצה ל:</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>לעדכן את תיאור הקבוצה</item>
+        <item>להפוך מישהו אחר למנהל</item>
+        <item>למנוע מחברים להזמין אנשים אחרים</item>
+        <item>"מחק צ'אטים ותמונות"</item>
+        <item>לשנות פרטי תמונה</item>
+        <item>למחוק את הקבוצה (ואת כל הנתונים)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>ללא</item>
+        <item>יום הולדת</item>
+        <item>חיית מחמד</item>
+        <item>בית ספר</item>
+        <item>עיר</item>
+        <item>התאמה אישית</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>באיזה חודש חל יום ההולדת שלי?</item>
+        <item>איזו חיית מחמד יש לי?</item>
+        <item>באיזה בית ספר יסודי למדתי?</item>
+        <item>באיזו עיר אני מתגורר כרגע?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>רשת</item>
+        <item>רשימה</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>רישיונות קוד פתוח</item>
+        <item>מדיניות פרטיות</item>
+        <item>תנאי שירות</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

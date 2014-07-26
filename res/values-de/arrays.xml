@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Keine</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Bild</item>
+        <item>Herunterladen</item>
+        <item>Musik</item>
+        <item>Video</item>
+        <item>Sonstige</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Name</item>
+        <item>Datum</item>
+        <item>@string/file_picker_type</item>
+        <item>Größe</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Aufsteigend</item>
+        <item>Absteigend</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Fälligkeitsdatum</item>
+        <item>Priorität</item>
+        <item>Kategorie</item>
+        <item>Zugewiesen zu</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Gruppenbeschreibung aktualisieren</item>
+        <item>Eine andere Person zum Administrator ernennen</item>
+        <item>Verhindern, dass Mitglieder andere Personen einladen</item>
+        <item>Chats und Bilder löschen</item>
+        <item>Bilddetails ändern</item>
+        <item>Gruppe (und alle Daten) löschen</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Keine</item>
+        <item>Geburtstag</item>
+        <item>Haustier</item>
+        <item>Schule</item>
+        <item>Ort</item>
+        <item>Benutzerdefiniert</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>In welchem Monat habe ich Geburtstag?</item>
+        <item>Welches Haustier habe ich?</item>
+        <item>Wie hieß meine Grundschule?</item>
+        <item>Wo wohne ich derzeit?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Raster</item>
+        <item>Liste</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Open-Source-Lizenzen</item>
+        <item>Datenschutzrichtlinie</item>
+        <item>Nutzungsbedingungen</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Κανένα</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Εικόνα</item>
+        <item>Λήψη</item>
+        <item>Μουσική</item>
+        <item>Βίντεο</item>
+        <item>Άλλο</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Όνομα</item>
+        <item>Ημερομηνία</item>
+        <item>@string/file_picker_type</item>
+        <item>Μέγεθος</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Αύξουσα σειρά</item>
+        <item>Φθίνουσα σειρά</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Ημερομηνία λήξης</item>
+        <item>Προτεραιότητα</item>
+        <item>Κατηγορία</item>
+        <item>Εκχωρήθηκε σε</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Ενημέρωση της περιγραφής ομάδας</item>
+        <item>Ανάθεση διαχείρισης σε άλλο άτομο</item>
+        <item>Αποτροπή μελών από πρόσκληση άλλων ατόμων</item>
+        <item>Διαγραφή συνομιλιών και εικόνων</item>
+        <item>Αλλαγή λεπτομερειών εικόνων</item>
+        <item>Διαγραφή της ομάδας (και όλων των δεδομένων)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Καμία</item>
+        <item>Γενέθλια</item>
+        <item>Κατοικίδιο</item>
+        <item>Σχολείο</item>
+        <item>Πόλη</item>
+        <item>Προσαρμογή</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Ποιο μήνα είναι τα γενέθλιά μου;</item>
+        <item>Τι κατοικίδιο έχω;</item>
+        <item>Σε ποιο δημοτικό σχολείο πήγα;</item>
+        <item>Σε ποια πόλη κατοικώ αυτήν τη στιγμή;</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Πλέγμα</item>
+        <item>Λίστα</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Άδειες χρήσης ανοιχτού κώδικα</item>
+        <item>Πολιτική απορρήτου</item>
+        <item>Όροι υπηρεσίας</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

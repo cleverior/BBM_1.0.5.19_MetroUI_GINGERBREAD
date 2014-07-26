@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>بلا</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>صورة</item>
+        <item>تنزيل</item>
+        <item>موسيقى</item>
+        <item>فيديو</item>
+        <item>خيارات أخرى</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>الاسم</item>
+        <item>التاريخ</item>
+        <item>@string/file_picker_type</item>
+        <item>الحجم</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>تصاعدي</item>
+        <item>تنازلي</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>تاريخ الاستحقاق</item>
+        <item>الأولوية</item>
+        <item>الفئة</item>
+        <item>تم التعيين إلى</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>تحديث وصف المجموعة</item>
+        <item>جعل شخص آخر مسؤولاً</item>
+        <item>منع الأعضاء من دعوة الآخرين</item>
+        <item>حذف الدردشات والصور</item>
+        <item>تغيير تفاصيل الصورة</item>
+        <item>حذف المجموعة (وجميع البيانات)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>بلا</item>
+        <item>عيد الميلاد</item>
+        <item>حيوان أليف</item>
+        <item>المدرسة</item>
+        <item>المدينة</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>في أي شهر يوم ميلادي؟</item>
+        <item>ما نوع حيواني الأليف؟</item>
+        <item>ما اسم مدرستي الابتدائية؟</item>
+        <item>ما اسم المدينة التي أعيش فيها حاليًا؟</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>الشبكة</item>
+        <item>القائمة</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>تراخيص مصدر مفتوح</item>
+        <item>سياسة الخصوصية</item>
+        <item>شروط الخدمة</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

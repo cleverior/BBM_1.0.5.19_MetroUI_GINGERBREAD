@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Không</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Ảnh</item>
+        <item>Tải về</item>
+        <item>Nhạc</item>
+        <item>Video</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Tên</item>
+        <item>Ngày</item>
+        <item>@string/file_picker_type</item>
+        <item>Kích cỡ</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Tăng dần</item>
+        <item>Giảm dần</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Ngày đến hạn</item>
+        <item>Ưu tiên</item>
+        <item>Danh mục</item>
+        <item>Đã gán cho</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Cập nhật mô tả nhóm</item>
+        <item>Đặt người khác làm người quản trị</item>
+        <item>Ngăn không cho thành viên mời người khác</item>
+        <item>Xóa cuộc trò chuyện và ảnh</item>
+        <item>Thay đổi chi tiết ảnh</item>
+        <item>Xóa nhóm (và tất cả dữ liệu)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Không</item>
+        <item>Sinh nhật</item>
+        <item>Thú cưng</item>
+        <item>Trường học</item>
+        <item>Thành phố</item>
+        <item>Tùy chỉnh</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Sinh nhật của tôi vào tháng nào?</item>
+        <item>Tôi có loại thú cưng nào?</item>
+        <item>Tôi đã học trường tiểu học nào?</item>
+        <item>Tôi hiện đang sống ở thành phố nào?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Lưới</item>
+        <item>Danh sách</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Giấy phép Nguồn mở</item>
+        <item>Chính sách Quyền riêng tư</item>
+        <item>Điều khoản Dịch vụ</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

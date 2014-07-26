@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>無</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>圖片</item>
+        <item>下載</item>
+        <item>音樂</item>
+        <item>視訊</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>名稱</item>
+        <item>日期</item>
+        <item>@string/file_picker_type</item>
+        <item>大小</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>遞增</item>
+        <item>遞減</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>到期日</item>
+        <item>優先順序</item>
+        <item>類別</item>
+        <item>指派給</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>更新群組描述</item>
+        <item>將其他人設定成系統管理員</item>
+        <item>禁止成員邀請其他人</item>
+        <item>刪除聊天和圖片</item>
+        <item>變更圖片詳細資料</item>
+        <item>刪除群組 (及所有資料)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>無</item>
+        <item>生日</item>
+        <item>寵物</item>
+        <item>學校</item>
+        <item>城市</item>
+        <item>自訂</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>我的生日在幾月？</item>
+        <item>我養什麼寵物？</item>
+        <item>我就讀哪一所國小？</item>
+        <item>我目前居住在哪個縣市？</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>格線</item>
+        <item>清單</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>開放源授權</item>
+        <item>隱私權政策</item>
+        <item>服務條款</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

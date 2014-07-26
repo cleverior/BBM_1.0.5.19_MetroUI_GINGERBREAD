@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">%1$s Items</item>
+        <item quantity="zero">0 Items</item>
+        <item quantity="one">1 Item</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">%1$s Active Chats</item>
+        <item quantity="one">1 Active Chat</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">%1$s Contacts</item>
+        <item quantity="one">1 Contact</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">%1$s Groups</item>
+        <item quantity="one">1 Group</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">%1$s New Updates</item>
+        <item quantity="one">1 New Update</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">%1$s New Invites</item>
+        <item quantity="one">1 New Invite</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">Broadcast message sent to %1$s contacts</item>
+        <item quantity="one">Broadcast Message sent to 1 contact</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(%1$d invites waiting)</item>
+        <item quantity="one">(1 invite waiting)</item>
+    </plurals>
+</resources>

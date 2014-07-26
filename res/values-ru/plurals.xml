@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">Элементов: %1$s</item>
+        <item quantity="zero">0 элементов</item>
+        <item quantity="one">1 элемент</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">Активных чатов: %1$s</item>
+        <item quantity="one">1 активный чат</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">Контактов: %1$s</item>
+        <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">Групп: %1$s</item>
+        <item quantity="one">1 группа</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">Новых обновлений: %1$s</item>
+        <item quantity="one">1 новое обновление</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">Новых приглашений: %1$s</item>
+        <item quantity="one">1 новое приглашение</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">Массовое сообщение отправлено контактам (%1$s)</item>
+        <item quantity="one">Массовое сообщение отправлено 1 контакту</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(ожидающих приглашений: %1$d)</item>
+        <item quantity="one">(1 ожидающее приглашение)</item>
+    </plurals>
+</resources>

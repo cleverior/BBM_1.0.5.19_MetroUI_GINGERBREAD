@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">عنصرًا%1$s</item>
+        <item quantity="zero">0 عنصر</item>
+        <item quantity="one">عنصر واحد</item>
+        <item quantity="two">عنصران</item>
+        <item quantity="few">عناصر%1$s</item>
+        <item quantity="many">عنصر%1$s</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">%1$s من الدردشات النشطة</item>
+        <item quantity="zero">لا تتوفر دردشات نشطة</item>
+        <item quantity="one">دردشة واحدة نشطة</item>
+        <item quantity="two">دردشتان نشطتان</item>
+        <item quantity="few">%1$s دردشات نشطة</item>
+        <item quantity="many">%1$s دردشة نشطة</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">%1$s من جهات الاتصال</item>
+        <item quantity="zero">لا تتوفر جهات اتصال</item>
+        <item quantity="one">جهة اتصال واحدة</item>
+        <item quantity="two">جهتا اتصال</item>
+        <item quantity="few">%1$s جهات اتصال</item>
+        <item quantity="many">%1$s جهة اتصال</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">%1$s من المجموعات</item>
+        <item quantity="zero">لا تتوفر مجموعات</item>
+        <item quantity="one">مجموعة واحدة</item>
+        <item quantity="two">مجموعتان</item>
+        <item quantity="few">%1$s مجموعات</item>
+        <item quantity="many">%1$s مجموعة</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">%1$s من التحديثات الجديدة</item>
+        <item quantity="zero">لا تتوفر تحديثات جديدة</item>
+        <item quantity="one">تحديث واحد جديد</item>
+        <item quantity="two">تحديثان جديدان</item>
+        <item quantity="few">%1$s تحديثات جديدة</item>
+        <item quantity="many">%1$s تحديثًا جديدًا</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">%1$s من الدعوات الجديدة</item>
+        <item quantity="zero">لا تتوفر دعوات جديدة</item>
+        <item quantity="one">دعوة واحدة جديدة</item>
+        <item quantity="two">دعوتان جديدتان</item>
+        <item quantity="few">%1$s دعوات جديدة</item>
+        <item quantity="many">%1$s دعوة جديدة</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">بث رسالة إلى %1$s جهة اتصال</item>
+        <item quantity="zero">بث رسالة إلى 0 جهة اتصال</item>
+        <item quantity="one">بث رسالة إلى جهة اتصال واحدة</item>
+        <item quantity="two">بث رسالة إلى جهتي اتصال</item>
+        <item quantity="few">بث رسالة إلى %1$s جهات اتصال</item>
+        <item quantity="many">بث رسالة إلى %1$s جهة اتصال</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">( دعوة قيد الانتظار%1$d)</item>
+        <item quantity="zero">( دعوة قيد الانتظار0)</item>
+        <item quantity="one">(دعوة واحدة قيد الانتظار)</item>
+        <item quantity="two">( دعوة قيد الانتظار2)</item>
+        <item quantity="few">( دعوات قيد الانتظار%1$d)</item>
+        <item quantity="many">( دعوة قيد الانتظار%1$d)</item>
+    </plurals>
+</resources>

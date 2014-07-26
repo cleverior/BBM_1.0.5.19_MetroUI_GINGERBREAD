@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Ingen</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Bild</item>
+        <item>Hämta</item>
+        <item>Musik</item>
+        <item>Video</item>
+        <item>Övrigt</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Namn</item>
+        <item>Datum</item>
+        <item>@string/file_picker_type</item>
+        <item>Storlek</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Stigande</item>
+        <item>Fallande</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Förfallodatum</item>
+        <item>Prioritet</item>
+        <item>Kategori</item>
+        <item>Tilldelad till</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Uppdatera gruppbeskrivningen</item>
+        <item>Utse en annan person till administratör</item>
+        <item>Hindra medlemmar från att bjuda in andra</item>
+        <item>Ta bort chattar och bilder</item>
+        <item>Ändra bildinformation</item>
+        <item>Ta bort gruppen (och alla data)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Ingen</item>
+        <item>Födelsedag</item>
+        <item>Husdjur</item>
+        <item>Skola</item>
+        <item>Stad</item>
+        <item>Anpassad</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Vilken månad fyller jag år?</item>
+        <item>Vad har jag för husdjur?</item>
+        <item>Vilken grundskola gick jag i?</item>
+        <item>Vilken stad bor jag i nu?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Rutnät</item>
+        <item>Lista</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Licens för öppen källkod</item>
+        <item>Sekretesspolicy</item>
+        <item>Tjänstvillkor</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

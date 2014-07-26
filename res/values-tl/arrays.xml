@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Wala</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Larawan</item>
+        <item>I-download</item>
+        <item>Musika</item>
+        <item>Video</item>
+        <item>Iba pa</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Pangalan</item>
+        <item>Petsa</item>
+        <item>@string/file_picker_type</item>
+        <item>Laki</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Pataas</item>
+        <item>Pababa</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Nakatakdang Petsa</item>
+        <item>Priyoridad</item>
+        <item>Kategorya</item>
+        <item>Itinalaga Kay</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>I-update ang paglalarawan ng grupo</item>
+        <item>Gawing admin ang iba pa</item>
+        <item>Pigilan ang mga miyembro na mag-imbita ng mga iba</item>
+        <item>Tanggalin ang mga chat at larawan</item>
+        <item>Baguhin ang mga detalye ng larawan</item>
+        <item>Tanggalin ang grupo (at lahat ng data)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Wala</item>
+        <item>Kaarawan</item>
+        <item>Alaga</item>
+        <item>Paaralan</item>
+        <item>Lungsod</item>
+        <item>Pasadya</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Ano ang buwan ng aking kaarawan?</item>
+        <item>Anong uri ng hayop ang alaga ko?</item>
+        <item>Saan ako nag-aral ng elementarya?</item>
+        <item>Saang lungsod ako kasalukuyang nakatira?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Grid</item>
+        <item>Listahan</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Mga Lisensiya ng Open Source</item>
+        <item>Patakaran sa Pagkapribado</item>
+        <item>Mga Tuntunin ng Serbisyo</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

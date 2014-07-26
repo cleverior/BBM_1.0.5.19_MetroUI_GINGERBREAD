@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/slide_menu_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/slide_menu_top_item" android:layout_width="fill_parent" android:layout_height="@dimen/slide_menu_item_height" android:layout_alignParentTop="true" layout="@layout/list_item_top_slide_menu" />
+    <com.bbm.ui.AdjustableSlidingMenuListContainer android:id="@id/slide_menu_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:layout_gravity="center_vertical" android:id="@id/slide_menu_list" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="#ff000000" android:divider="@color/slide_menu_divider" android:dividerHeight="1.0dip" />
+    </com.bbm.ui.AdjustableSlidingMenuListContainer>
+    <include android:id="@id/slide_menu_bottom_item_layout" android:layout_width="fill_parent" android:layout_height="@dimen/slide_menu_item_height" android:layout_alignParentBottom="true" layout="@layout/list_item_bottom_slide_menu" />
+</RelativeLayout>

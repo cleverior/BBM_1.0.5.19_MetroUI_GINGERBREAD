@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">%1$s kohdetta</item>
+        <item quantity="zero">0 kohdetta</item>
+        <item quantity="one">1 kohde</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">%1$s aktiivista keskustelua</item>
+        <item quantity="one">1 aktiivinen keskustelu</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">%1$s yhteystietoa</item>
+        <item quantity="one">1 yhteystieto</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">%1$s ryhmää</item>
+        <item quantity="one">1 ryhmä</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">%1$s uutta päivitystä</item>
+        <item quantity="one">1 uusi päivitys</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">%1$s uutta kutsua</item>
+        <item quantity="one">1 uusi kutsu</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">Yleislähetysviesti lähetetty %1$s yhteyshenkilölle</item>
+        <item quantity="one">Yleislähetysviesti lähetetty yhdelle yhteyshenkilölle</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(%1$d odottavaa kutsua)</item>
+        <item quantity="one">(1 odottava kutsu)</item>
+    </plurals>
+</resources>

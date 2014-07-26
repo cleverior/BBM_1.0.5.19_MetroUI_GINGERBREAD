@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">%1$s στοιχεία</item>
+        <item quantity="zero">0 στοιχεία</item>
+        <item quantity="one">1 στοιχείο</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">%1$s Ενεργές συνομιλίες</item>
+        <item quantity="one">1 Ενεργή συνομιλία</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">%1$s Επαφές</item>
+        <item quantity="one">1 Επαφή</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">%1$s Ομάδες</item>
+        <item quantity="one">1 Ομάδα</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">%1$s Νέες ενημερώσεις</item>
+        <item quantity="one">1 Νέα ενημέρωση</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">%1$s Νέες προσκλήσεις</item>
+        <item quantity="one">1 Νέα πρόσκληση</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">Έγινε αποστολή μηνύματος εκπομπής σε %1$s επαφές</item>
+        <item quantity="one">Το μήνυμα εκπομπής εστάλη σε 1 επαφή</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(%1$d προσκλήσεις σε αναμονή)</item>
+        <item quantity="one">(1 πρόσκληση σε αναμονή)</item>
+    </plurals>
+</resources>

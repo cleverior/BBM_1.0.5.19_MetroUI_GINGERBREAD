@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Nincs</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Kép</item>
+        <item>Letöltés</item>
+        <item>Zene</item>
+        <item>Videó</item>
+        <item>Egyéb</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Név</item>
+        <item>Dátum</item>
+        <item>@string/file_picker_type</item>
+        <item>Méret</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Növekvő</item>
+        <item>Csökkenő</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Határidő napja</item>
+        <item>Prioritás</item>
+        <item>Kategória</item>
+        <item>Hozzárendelve a következőhöz:</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>A csoport leírásának frissítése</item>
+        <item>Más személy kinevezése rendszergazdának</item>
+        <item>Annak megakadályozása, hogy a tagok másokat meghívhassanak</item>
+        <item>Csevegések és képek törlése</item>
+        <item>Kép részleteinek módosítása</item>
+        <item>Csoport (és az azzal kapcsolatos összes adat) törlése</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Nincs</item>
+        <item>Születésnap</item>
+        <item>Háziállat</item>
+        <item>Iskola</item>
+        <item>Város</item>
+        <item>Saját</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Melyik hónapban van a születésnapom?</item>
+        <item>Milyen háziállatom van?</item>
+        <item>Melyik általános iskolába jártam?</item>
+        <item>Melyik városban élek jelenleg?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Rács</item>
+        <item>Lista</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Nyílt forráskódú licenc</item>
+        <item>Adatvédelmi szabályzat</item>
+        <item>Szolgáltatási feltételek</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

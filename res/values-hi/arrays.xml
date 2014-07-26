@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>कोई नहीं</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>चित्र</item>
+        <item>डाउनलोड करें</item>
+        <item>संगीत</item>
+        <item>वीडियो</item>
+        <item>अन्य</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>नाम</item>
+        <item>दिनांक</item>
+        <item>@string/file_picker_type</item>
+        <item>आकार</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>आरोही</item>
+        <item>अवरोही</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>नियत दिनांक</item>
+        <item>प्राथमिकता</item>
+        <item>श्रेणी</item>
+        <item>इसे असाइन किया गया</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>समूह वर्णन अपडेट करें</item>
+        <item>किसी अन्य को व्यवस्थापक बनाएं</item>
+        <item>अन्य को आमंत्रित करने से सदस्यों को रोकें</item>
+        <item>चैट्स और चित्रों को हटाएं</item>
+        <item>चित्र विवरणों को बदलें</item>
+        <item>समूह (और सभी डेटा) हटाएं</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>कोई नहीं</item>
+        <item>जन्मदिन</item>
+        <item>पालतू</item>
+        <item>स्कूल</item>
+        <item>शहर</item>
+        <item>कस्टम</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>मेरा जन्मदिन किस महीने में है?</item>
+        <item>मेरे पास कौन-सा पालतू पशु है?</item>
+        <item>मैंने कौन से प्राथमिक स्कूल में पढ़ाई की है?</item>
+        <item>मैं वर्तमान में किस शहर में रहता/रहती हूं?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>ग्रिड</item>
+        <item>सूची</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>ओपन सोर्स लाइसेंस</item>
+        <item>गोपनीयता नीति</item>
+        <item>सेवा की शर्तें</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

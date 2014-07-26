@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Ingen</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Billede</item>
+        <item>Hent</item>
+        <item>Musik</item>
+        <item>Video</item>
+        <item>Andet</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Navn</item>
+        <item>Dato</item>
+        <item>@string/file_picker_type</item>
+        <item>Størrelse</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Mindst først</item>
+        <item>Størst først</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Forfaldsdato</item>
+        <item>Prioritet</item>
+        <item>Kategori</item>
+        <item>Tildelt</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Opdatere gruppebeskrivelsen</item>
+        <item>Gøre en anden til administrator</item>
+        <item>Forhindre, at medlemmer inviterer andre</item>
+        <item>Slette chat og billeder</item>
+        <item>Ændre billedoplysninger</item>
+        <item>Slette gruppen (og alle data)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Ingen</item>
+        <item>Fødselsdag</item>
+        <item>Kæledyr</item>
+        <item>Skole</item>
+        <item>By</item>
+        <item>Brugerdefineret</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Hvilken måned har jeg fødselsdag?</item>
+        <item>Hvilket kæledyr har jeg?</item>
+        <item>Hvilken skole gik jeg på?</item>
+        <item>Hvilken by bor jeg i for øjeblikket?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Gitter</item>
+        <item>Liste</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Open Source-licenser</item>
+        <item>Politik vedr. beskyttelse af personlige oplysninger</item>
+        <item>Servicebetingelser</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

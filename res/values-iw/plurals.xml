@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">%1$s פריטים</item>
+        <item quantity="zero">0 פריטים</item>
+        <item quantity="one">1 פריט</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">"%1$s צ'אטים פעילים"</item>
+        <item quantity="one">"צ'אט פעיל אחד"</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">%1$s אנשי קשר</item>
+        <item quantity="one">איש קשר אחד</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">%1$s קבוצות</item>
+        <item quantity="one">קבוצה אחת</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">%1$s עדכונים חדשים</item>
+        <item quantity="one">עדכון חדש אחד</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">%1$s הזמנות חדשות</item>
+        <item quantity="one">הזמנה חדשה אחת</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">הודעת השידור נשלחה ל-%1$s אנשי קשר</item>
+        <item quantity="one">הודעת השידור נשלחה לאיש קשר אחד</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(%1$d הזמנות ממתינות)</item>
+        <item quantity="one">(הזמנה אחת ממתינה)</item>
+    </plurals>
+</resources>

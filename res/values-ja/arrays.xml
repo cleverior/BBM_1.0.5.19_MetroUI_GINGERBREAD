@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>なし</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>画像</item>
+        <item>ダウンロード</item>
+        <item>音楽</item>
+        <item>ビデオ</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>名前</item>
+        <item>日付</item>
+        <item>@string/file_picker_type</item>
+        <item>サイズ</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>昇順</item>
+        <item>降順</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>期日</item>
+        <item>優先度</item>
+        <item>カテゴリ</item>
+        <item>割り当て先</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>グループの説明を更新する</item>
+        <item>別の人を管理者にする</item>
+        <item>メンバーが他の人を招待できないようにする</item>
+        <item>チャットと画像を削除する</item>
+        <item>画像の詳細を変更する</item>
+        <item>グループ(およびすべてのデータ)を削除する</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>なし</item>
+        <item>誕生日</item>
+        <item>ペット</item>
+        <item>学校</item>
+        <item>市区町村</item>
+        <item>カスタム</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>誕生した月は?</item>
+        <item>飼っているペットの種類は?</item>
+        <item>通った小学校は?</item>
+        <item>現在住んでいる市区町村は?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>グリッド</item>
+        <item>リスト</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>オープンソースライセンス</item>
+        <item>プライバシーポリシー</item>
+        <item>サービス条件</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

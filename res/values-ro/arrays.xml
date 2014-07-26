@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Niciuna</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Imagine</item>
+        <item>Descărcare</item>
+        <item>Muzică</item>
+        <item>Video</item>
+        <item>Altele</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Nume</item>
+        <item>Dată</item>
+        <item>@string/file_picker_type</item>
+        <item>Dimensiune</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Crescător</item>
+        <item>Descrescător</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Dată scadentă</item>
+        <item>Prioritate</item>
+        <item>Categorie</item>
+        <item>Alocate către</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Actualizare descriere grup</item>
+        <item>Se acordă altcuiva calitatea de administrator</item>
+        <item>Împiedicare membri să invite alte persoane</item>
+        <item>Ştergere chaturi şi imagini</item>
+        <item>Schimbare detalii imagine</item>
+        <item>Ştergere grup (şi toate datele)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Niciuna</item>
+        <item>Zi de naştere</item>
+        <item>Animal de companie</item>
+        <item>Şcoală</item>
+        <item>Oraş</item>
+        <item>Personalizată</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>În ce lună este ziua mea de naştere?</item>
+        <item>Ce fel de animal de companie am?</item>
+        <item>La ce şcoală generală am studiat?</item>
+        <item>În ce oraş locuiesc acum?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Grilă</item>
+        <item>Listă</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Licenţe open source</item>
+        <item>Politică de confidenţialitate</item>
+        <item>Termeni de utilizare</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

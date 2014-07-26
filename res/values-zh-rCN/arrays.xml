@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>无</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>图片</item>
+        <item>下载</item>
+        <item>音乐</item>
+        <item>视频</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>名称</item>
+        <item>日期</item>
+        <item>@string/file_picker_type</item>
+        <item>大小</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>升序</item>
+        <item>降序</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>到期日</item>
+        <item>优先级</item>
+        <item>类别</item>
+        <item>分配至</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>更新组说明</item>
+        <item>让其他人成为管理员</item>
+        <item>禁止成员邀请他人</item>
+        <item>删除聊天和图片</item>
+        <item>更改图片详细信息</item>
+        <item>删除组（和所有数据）</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>无</item>
+        <item>生日</item>
+        <item>宠物</item>
+        <item>学校</item>
+        <item>城市</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>我在哪个月出生？</item>
+        <item>我养的什么宠物？</item>
+        <item>我在哪个学校念小学？</item>
+        <item>我现在住在哪个城市？</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>网格</item>
+        <item>列表</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>开源许可证</item>
+        <item>隐私策略</item>
+        <item>服务条款</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

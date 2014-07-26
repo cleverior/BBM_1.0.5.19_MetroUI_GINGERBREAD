@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Tidak Ada</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Gambar</item>
+        <item>Unduh</item>
+        <item>Musik</item>
+        <item>Video</item>
+        <item>Lainnya</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Nama</item>
+        <item>Tanggal</item>
+        <item>@string/file_picker_type</item>
+        <item>Ukuran</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Menaik</item>
+        <item>Menurun</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Tenggat</item>
+        <item>Prioritas</item>
+        <item>Kategori</item>
+        <item>Ditetapkan Ke</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Memperbarui deskripsi grup</item>
+        <item>Membuat orang lain sebagai admin</item>
+        <item>Mencegah anggota mengundang orang lain</item>
+        <item>Menghapus obrolan dan gambar</item>
+        <item>Mengganti detail gambar</item>
+        <item>Menghapus grup (dan semua data)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Tidak Ada</item>
+        <item>Ulang Tahun</item>
+        <item>Hewan Peliharaan</item>
+        <item>Sekolah</item>
+        <item>Kota</item>
+        <item>Khusus</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Pada bulan apa saya berulang tahun?</item>
+        <item>Jenis hewan peliharaan apa yang saya miliki?</item>
+        <item>Di mana sekolah dasar saya?</item>
+        <item>Di kota mana saya sekarang tinggal?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Petak</item>
+        <item>Daftar</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Lisensi Sumber Terbuka</item>
+        <item>Kebijakan Privasi</item>
+        <item>Ketentuan Layanan</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="file_picker_items">
+        <item quantity="other">%1$s개 항목</item>
+        <item quantity="zero">0개 항목</item>
+        <item quantity="one">1개 항목</item>
+    </plurals>
+    <plurals name="slide_menu_active_chats">
+        <item quantity="other">진행 중인 채팅 %1$s개</item>
+        <item quantity="one">진행 중인 채팅 1개</item>
+    </plurals>
+    <plurals name="slide_menu_total_contacts">
+        <item quantity="other">대화 상대 %1$s명</item>
+        <item quantity="one">대화 상대 1명</item>
+    </plurals>
+    <plurals name="slide_menu_total_groups">
+        <item quantity="other">그룹 %1$s개</item>
+        <item quantity="one">그룹 1개</item>
+    </plurals>
+    <plurals name="slide_menu_new_updates">
+        <item quantity="other">새 업데이트 %1$s개</item>
+        <item quantity="one">새 업데이트 1개</item>
+    </plurals>
+    <plurals name="slide_menu_new_invites">
+        <item quantity="other">새 초대 %1$s개</item>
+        <item quantity="one">새 초대 1개</item>
+    </plurals>
+    <plurals name="broadcast_activity_done">
+        <item quantity="other">%1$s명의 대화 상대에게 브로드캐스트 메시지가 전송됨</item>
+        <item quantity="one">1명의 대화 상대에게 브로드캐스트 메시지가 전송됨</item>
+    </plurals>
+    <plurals name="invites_received_chat_item_count">
+        <item quantity="other">(%1$d개 초대 대기 중)</item>
+        <item quantity="one">(1개 초대 대기 중)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>Ei mitään</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>Kuva</item>
+        <item>Lataa</item>
+        <item>Musiikki</item>
+        <item>Video</item>
+        <item>Muu</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>Nimi</item>
+        <item>Päivämäärä</item>
+        <item>@string/file_picker_type</item>
+        <item>Koko</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>Nouseva</item>
+        <item>Laskeva</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>Määräpäivä</item>
+        <item>Tärkeys</item>
+        <item>Luokka</item>
+        <item>Vastuuhenkilö</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>Päivitä ryhmän kuvausta</item>
+        <item>Tee muista järjestelmänvalvojia</item>
+        <item>Estä jäseniä kutsumasta muita</item>
+        <item>Poista keskusteluja ja kuvia</item>
+        <item>Muuta kuvan tietoja</item>
+        <item>Poista ryhmä (ja kaikki tiedot)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>Ei mitään</item>
+        <item>Syntymäpäivä</item>
+        <item>Lemmikki</item>
+        <item>Koulu</item>
+        <item>Kaupunki</item>
+        <item>Mukautettu</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>Missä kuussa syntymäpäiväni on?</item>
+        <item>Millaisen lemmikin omistan?</item>
+        <item>Mitä ala-astetta kävin?</item>
+        <item>Missä kaupungissa asun?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>Ruudukko</item>
+        <item>Luettelo</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>Avoimen lähdekoodin lisenssit</item>
+        <item>Tietosuojakäytäntö</item>
+        <item>Käyttöehdot</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>

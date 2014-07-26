@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_led_notifications_colours">
+        <item>@string/pref_led_notifications_red</item>
+        <item>@string/pref_led_notifications_white</item>
+        <item>@string/pref_led_notifications_yellow</item>
+        <item>@string/pref_led_notifications_green</item>
+        <item>@string/pref_led_notifications_cyan</item>
+        <item>@string/pref_led_notifications_blue</item>
+        <item>@string/pref_led_notifications_purple</item>
+        <item>ไม่มี</item>
+    </string-array>
+    <string-array name="file_picker_filter_type_list">
+        <item>รูปภาพ</item>
+        <item>ดาวน์โหลด</item>
+        <item>เพลง</item>
+        <item>วิดีโอ</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="file_picker_sort_types">
+        <item>ชื่อ</item>
+        <item>วันที่</item>
+        <item>@string/file_picker_type</item>
+        <item>ขนาด</item>
+    </string-array>
+    <string-array name="file_picker_sort_order">
+        <item>การเรียงลำดับจากน้อยไปหามาก</item>
+        <item>การเรียงลำดับจากมากไปหาน้อย</item>
+    </string-array>
+    <string-array name="group_list_item_sort">
+        <item>วันที่ครบกำหนด</item>
+        <item>ลำดับความสำคัญ</item>
+        <item>ชนิด</item>
+        <item>กำหนดให้กับ</item>
+    </string-array>
+    <string-array name="group_admin_actions_list">
+        <item>อัปเดตคำอธิบายกลุ่ม</item>
+        <item>ตั้งคนอื่นเป็นผู้ดูแลระบบ</item>
+        <item>ป้องกันไม่ให้สมาชิกเชิญคนอื่น</item>
+        <item>ลบการแชทและรูปภาพ</item>
+        <item>เปลี่ยนรายละเอียดรูปภาพ</item>
+        <item>ลบกลุ่ม (และข้อมูลทั้งหมด)</item>
+    </string-array>
+    <string-array name="invite_activity_security_title">
+        <item>ไม่มี</item>
+        <item>วันเกิด</item>
+        <item>สัตว์เลี้ยง</item>
+        <item>โรงเรียน</item>
+        <item>เมือง</item>
+        <item>กำหนดเอง</item>
+    </string-array>
+    <string-array name="invite_activity_security_question">
+        <item></item>
+        <item>วันเกิดฉันอยู่ในเดือนอะไร?</item>
+        <item>ฉันมีสัตว์เลี้ยงชนิดใด?</item>
+        <item>ฉันเรียนชั้นประถมศึกษาในโรงเรียนใด?</item>
+        <item>ในขณะนี้ฉันอาศัยอยู่ในเมืองใด?</item>
+        <item></item>
+    </string-array>
+    <string-array name="settings_activity_contacts_layout_values">
+        <item>กริด</item>
+        <item>รายการ</item>
+    </string-array>
+    <string-array name="legal_option_list_label">
+        <item>ลิขสิทธิ์สำหรับการเปิดแหล่งที่มา</item>
+        <item>นโยบายการรักษาข้อมูล</item>
+        <item>ข้อกำหนดการให้บริการ</item>
+    </string-array>
+    <string-array name="legal_option_list_url">
+        <item>http://www.blackberry.com/bbmthirdparty</item>
+        <item>http://www.blackberry.com/legal/privacy</item>
+        <item>http://www.blackberry.com/legal/bbm-tos</item>
+    </string-array>
+</resources>
